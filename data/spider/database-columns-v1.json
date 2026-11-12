@@ -1,0 +1,4383 @@
+{
+  "allergy_1": {
+    "Student": [
+      "StuID",
+      "LName",
+      "Fname",
+      "Age",
+      "Sex",
+      "Major",
+      "Advisor",
+      "city_code",
+      "Student_description",
+      "Student_description_embedding",
+      "row_id"
+    ],
+    "Has_Allergy": [
+      "StuID",
+      "Allergy",
+      "row_id"
+    ],
+    "Allergy_Type": [
+      "Allergy",
+      "AllergyType",
+      "Allergy_Type_description",
+      "Allergy_Type_description_embedding",
+      "row_id"
+    ]
+  },
+  "assets_maintenance": {
+    "Maintenance_Engineers": [
+      "engineer_id",
+      "company_id",
+      "first_name",
+      "last_name",
+      "other_details",
+      "Maintenance_Engineers_description",
+      "other_details_embedding",
+      "Maintenance_Engineers_description_embedding",
+      "row_id"
+    ],
+    "Asset_Parts": [
+      "asset_id",
+      "part_id",
+      "row_id"
+    ],
+    "Fault_Log_Parts": [
+      "fault_log_entry_id",
+      "part_fault_id",
+      "fault_status",
+      "row_id"
+    ],
+    "Engineer_Visits": [
+      "engineer_visit_id",
+      "contact_staff_id",
+      "engineer_id",
+      "fault_log_entry_id",
+      "fault_status",
+      "visit_start_datetime",
+      "visit_end_datetime",
+      "other_visit_details",
+      "Engineer_Visits_description",
+      "Engineer_Visits_description_embedding",
+      "row_id"
+    ],
+    "Fault_Log": [
+      "fault_log_entry_id",
+      "asset_id",
+      "recorded_by_staff_id",
+      "fault_log_entry_datetime",
+      "fault_description",
+      "other_fault_details",
+      "fault_description_embedding",
+      "row_id"
+    ],
+    "Staff": [
+      "staff_id",
+      "staff_name",
+      "gender",
+      "other_staff_details",
+      "Staff_description",
+      "other_staff_details_embedding",
+      "Staff_description_embedding",
+      "row_id"
+    ],
+    "Engineer_Skills": [
+      "engineer_id",
+      "skill_id",
+      "row_id"
+    ],
+    "Assets": [
+      "asset_id",
+      "maintenance_contract_id",
+      "supplier_company_id",
+      "asset_details",
+      "asset_make",
+      "asset_model",
+      "asset_acquired_date",
+      "asset_disposed_date",
+      "other_asset_details",
+      "Assets_description",
+      "Assets_description_embedding",
+      "row_id"
+    ],
+    "Maintenance_Contracts": [
+      "maintenance_contract_id",
+      "maintenance_contract_company_id",
+      "contract_start_date",
+      "contract_end_date",
+      "other_contract_details",
+      "Maintenance_Contracts_description",
+      "Maintenance_Contracts_description_embedding",
+      "row_id"
+    ],
+    "Third_Party_Companies": [
+      "company_id",
+      "company_type",
+      "company_name",
+      "company_address",
+      "other_company_details",
+      "Third_Party_Companies_description",
+      "other_company_details_embedding",
+      "Third_Party_Companies_description_embedding",
+      "row_id"
+    ],
+    "Part_Faults": [
+      "part_fault_id",
+      "part_id",
+      "fault_short_name",
+      "fault_description",
+      "other_fault_details",
+      "fault_description_embedding",
+      "row_id"
+    ],
+    "Parts": [
+      "part_id",
+      "part_name",
+      "chargeable_yn",
+      "chargeable_amount",
+      "other_part_details",
+      "Parts_description",
+      "Parts_description_embedding",
+      "row_id"
+    ],
+    "Skills": [
+      "skill_id",
+      "skill_code",
+      "skill_description",
+      "skill_description_embedding",
+      "row_id"
+    ],
+    "Skills_Required_To_Fix": [
+      "part_fault_id",
+      "skill_id",
+      "row_id"
+    ]
+  },
+  "baseball_1": {
+    "team_half": [
+      "year",
+      "league_id",
+      "team_id",
+      "half",
+      "div_id",
+      "div_win",
+      "rank",
+      "g",
+      "w",
+      "l",
+      "row_id"
+    ],
+    "manager_half": [
+      "player_id",
+      "year",
+      "team_id",
+      "league_id",
+      "inseason",
+      "half",
+      "g",
+      "w",
+      "l",
+      "rank",
+      "row_id"
+    ],
+    "park": [
+      "park_id",
+      "park_name",
+      "park_alias",
+      "city",
+      "state",
+      "country",
+      "park_description",
+      "park_description_embedding",
+      "row_id"
+    ],
+    "player": [
+      "player_id",
+      "birth_year",
+      "birth_month",
+      "birth_day",
+      "birth_country",
+      "birth_state",
+      "birth_city",
+      "death_year",
+      "death_month",
+      "death_day",
+      "death_country",
+      "death_state",
+      "death_city",
+      "name_first",
+      "name_last",
+      "name_given",
+      "weight",
+      "height",
+      "bats",
+      "throws",
+      "debut",
+      "final_game",
+      "retro_id",
+      "bbref_id",
+      "player_description",
+      "row_id"
+    ],
+    "pitching": [
+      "player_id",
+      "year",
+      "stint",
+      "team_id",
+      "league_id",
+      "w",
+      "l",
+      "g",
+      "gs",
+      "cg",
+      "sho",
+      "sv",
+      "ipouts",
+      "h",
+      "er",
+      "hr",
+      "bb",
+      "so",
+      "baopp",
+      "era",
+      "ibb",
+      "wp",
+      "hbp",
+      "bk",
+      "bfp",
+      "gf",
+      "r",
+      "sh",
+      "sf",
+      "g_idp",
+      "row_id"
+    ],
+    "home_game": [
+      "year",
+      "league_id",
+      "team_id",
+      "park_id",
+      "span_first",
+      "span_last",
+      "games",
+      "openings",
+      "attendance",
+      "row_id"
+    ],
+    "postseason": [
+      "year",
+      "round",
+      "team_id_winner",
+      "league_id_winner",
+      "team_id_loser",
+      "league_id_loser",
+      "wins",
+      "losses",
+      "ties",
+      "row_id"
+    ],
+    "manager": [
+      "player_id",
+      "year",
+      "team_id",
+      "league_id",
+      "inseason",
+      "g",
+      "w",
+      "l",
+      "rank",
+      "plyr_mgr",
+      "manager_description",
+      "manager_description_embedding",
+      "row_id"
+    ],
+    "team_franchise": [
+      "franchise_id",
+      "franchise_name",
+      "active",
+      "na_assoc",
+      "team_franchise_description",
+      "team_franchise_description_embedding",
+      "row_id"
+    ],
+    "fielding_postseason": [
+      "player_id",
+      "year",
+      "team_id",
+      "league_id",
+      "round",
+      "pos",
+      "g",
+      "gs",
+      "inn_outs",
+      "po",
+      "a",
+      "e",
+      "dp",
+      "tp",
+      "pb",
+      "sb",
+      "cs",
+      "row_id"
+    ],
+    "hall_of_fame": [
+      "player_id",
+      "yearid",
+      "votedby",
+      "ballots",
+      "needed",
+      "votes",
+      "inducted",
+      "category",
+      "needed_note",
+      "hall_of_fame_description",
+      "hall_of_fame_description_embedding",
+      "row_id"
+    ],
+    "fielding_outfield": [
+      "player_id",
+      "year",
+      "stint",
+      "glf",
+      "gcf",
+      "grf",
+      "row_id"
+    ],
+    "pitching_postseason": [
+      "player_id",
+      "year",
+      "round",
+      "team_id",
+      "league_id",
+      "w",
+      "l",
+      "g",
+      "gs",
+      "cg",
+      "sho",
+      "sv",
+      "ipouts",
+      "h",
+      "er",
+      "hr",
+      "bb",
+      "so",
+      "baopp",
+      "era",
+      "ibb",
+      "wp",
+      "hbp",
+      "bk",
+      "bfp",
+      "gf",
+      "r",
+      "sh",
+      "sf",
+      "g_idp",
+      "row_id"
+    ],
+    "appearances": [
+      "year",
+      "team_id",
+      "league_id",
+      "player_id",
+      "g_all",
+      "gs",
+      "g_batting",
+      "g_defense",
+      "g_p",
+      "g_c",
+      "g_1b",
+      "g_2b",
+      "g_3b",
+      "g_ss",
+      "g_lf",
+      "g_cf",
+      "g_rf",
+      "g_of",
+      "g_dh",
+      "g_ph",
+      "g_pr",
+      "row_id"
+    ],
+    "all_star": [
+      "player_id",
+      "year",
+      "game_num",
+      "game_id",
+      "team_id",
+      "league_id",
+      "gp",
+      "starting_pos",
+      "row_id"
+    ],
+    "fielding": [
+      "player_id",
+      "year",
+      "stint",
+      "team_id",
+      "league_id",
+      "pos",
+      "g",
+      "gs",
+      "inn_outs",
+      "po",
+      "a",
+      "e",
+      "dp",
+      "pb",
+      "wp",
+      "sb",
+      "cs",
+      "zr",
+      "row_id"
+    ],
+    "player_award_vote": [
+      "award_id",
+      "year",
+      "league_id",
+      "player_id",
+      "points_won",
+      "points_max",
+      "votes_first",
+      "row_id"
+    ],
+    "manager_award": [
+      "player_id",
+      "award_id",
+      "year",
+      "league_id",
+      "tie",
+      "notes",
+      "notes_embedding",
+      "row_id"
+    ],
+    "batting": [
+      "player_id",
+      "year",
+      "stint",
+      "team_id",
+      "league_id",
+      "g",
+      "ab",
+      "r",
+      "h",
+      "double",
+      "triple",
+      "hr",
+      "rbi",
+      "sb",
+      "cs",
+      "bb",
+      "so",
+      "ibb",
+      "hbp",
+      "sh",
+      "sf",
+      "g_idp",
+      "row_id"
+    ],
+    "college": [
+      "college_id",
+      "name_full",
+      "city",
+      "state",
+      "country",
+      "college_description",
+      "college_description_embedding",
+      "row_id"
+    ],
+    "player_award": [
+      "player_id",
+      "award_id",
+      "year",
+      "league_id",
+      "tie",
+      "notes",
+      "notes_embedding",
+      "row_id"
+    ],
+    "manager_award_vote": [
+      "award_id",
+      "year",
+      "league_id",
+      "player_id",
+      "points_won",
+      "points_max",
+      "votes_first",
+      "row_id"
+    ],
+    "salary": [
+      "year",
+      "team_id",
+      "league_id",
+      "player_id",
+      "salary",
+      "row_id"
+    ],
+    "team": [
+      "year",
+      "league_id",
+      "team_id",
+      "franchise_id",
+      "div_id",
+      "rank",
+      "g",
+      "ghome",
+      "w",
+      "l",
+      "div_win",
+      "wc_win",
+      "lg_win",
+      "ws_win",
+      "r",
+      "ab",
+      "h",
+      "double",
+      "triple",
+      "hr",
+      "bb",
+      "so",
+      "sb",
+      "cs",
+      "hbp",
+      "sf",
+      "ra",
+      "er",
+      "era",
+      "cg",
+      "sho",
+      "sv",
+      "ipouts",
+      "ha",
+      "hra",
+      "bba",
+      "soa",
+      "e",
+      "dp",
+      "fp",
+      "name",
+      "park",
+      "attendance",
+      "bpf",
+      "ppf",
+      "team_id_br",
+      "team_id_lahman45",
+      "team_id_retro",
+      "team_description",
+      "row_id"
+    ],
+    "batting_postseason": [
+      "year",
+      "round",
+      "player_id",
+      "team_id",
+      "league_id",
+      "g",
+      "ab",
+      "r",
+      "h",
+      "double",
+      "triple",
+      "hr",
+      "rbi",
+      "sb",
+      "cs",
+      "bb",
+      "so",
+      "ibb",
+      "hbp",
+      "sh",
+      "sf",
+      "g_idp",
+      "row_id"
+    ],
+    "player_college": [
+      "player_id",
+      "college_id",
+      "year",
+      "row_id"
+    ]
+  },
+  "battle_death": {
+    "ship": [
+      "lost_in_battle",
+      "id",
+      "name",
+      "tonnage",
+      "ship_type",
+      "location",
+      "disposition_of_ship",
+      "ship_description",
+      "disposition_of_ship_embedding",
+      "ship_description_embedding",
+      "row_id"
+    ],
+    "death": [
+      "caused_by_ship_id",
+      "id",
+      "note",
+      "killed",
+      "injured",
+      "note_embedding",
+      "row_id"
+    ],
+    "battle": [
+      "id",
+      "name",
+      "date",
+      "bulgarian_commander",
+      "latin_commander",
+      "result",
+      "battle_description",
+      "result_embedding",
+      "battle_description_embedding",
+      "row_id"
+    ]
+  },
+  "book_2": {
+    "book": [
+      "Book_ID",
+      "Title",
+      "Issues",
+      "Writer",
+      "book_description",
+      "Title_embedding",
+      "book_description_embedding",
+      "row_id"
+    ],
+    "publication": [
+      "Publication_ID",
+      "Book_ID",
+      "Publisher",
+      "Publication_Date",
+      "Price",
+      "row_id"
+    ]
+  },
+  "chinook_1": {
+    "Track": [
+      "TrackId",
+      "Name",
+      "AlbumId",
+      "MediaTypeId",
+      "GenreId",
+      "Composer",
+      "Milliseconds",
+      "Bytes",
+      "UnitPrice",
+      "Track_description",
+      "Track_description_embedding",
+      "row_id"
+    ],
+    "PlaylistTrack": [
+      "PlaylistId",
+      "TrackId",
+      "row_id"
+    ],
+    "InvoiceLine": [
+      "InvoiceLineId",
+      "InvoiceId",
+      "TrackId",
+      "UnitPrice",
+      "Quantity",
+      "row_id"
+    ],
+    "Employee": [
+      "EmployeeId",
+      "LastName",
+      "FirstName",
+      "Title",
+      "ReportsTo",
+      "BirthDate",
+      "HireDate",
+      "Address",
+      "City",
+      "State",
+      "Country",
+      "PostalCode",
+      "Phone",
+      "Fax",
+      "Email",
+      "Employee_description",
+      "row_id"
+    ],
+    "Invoice": [
+      "InvoiceId",
+      "CustomerId",
+      "InvoiceDate",
+      "BillingAddress",
+      "BillingCity",
+      "BillingState",
+      "BillingCountry",
+      "BillingPostalCode",
+      "Total",
+      "Invoice_description",
+      "Invoice_description_embedding",
+      "row_id"
+    ],
+    "Genre": [
+      "GenreId",
+      "Name",
+      "Genre_description",
+      "Genre_description_embedding",
+      "row_id"
+    ],
+    "Album": [
+      "AlbumId",
+      "Title",
+      "ArtistId",
+      "Album_description",
+      "Album_description_embedding",
+      "row_id"
+    ],
+    "Artist": [
+      "ArtistId",
+      "Name",
+      "Artist_description",
+      "Artist_description_embedding",
+      "row_id"
+    ],
+    "MediaType": [
+      "MediaTypeId",
+      "Name",
+      "row_id"
+    ],
+    "Playlist": [
+      "PlaylistId",
+      "Name",
+      "Playlist_description",
+      "Playlist_description_embedding",
+      "row_id"
+    ],
+    "Customer": [
+      "CustomerId",
+      "FirstName",
+      "LastName",
+      "Company",
+      "Address",
+      "City",
+      "State",
+      "Country",
+      "PostalCode",
+      "Phone",
+      "Fax",
+      "Email",
+      "SupportRepId",
+      "Customer_description",
+      "Customer_description_embedding",
+      "row_id"
+    ]
+  },
+  "city_record": {
+    "match": [
+      "Match_ID",
+      "Date",
+      "Venue",
+      "Score",
+      "Result",
+      "Competition",
+      "match_description",
+      "match_description_embedding",
+      "row_id"
+    ],
+    "city": [
+      "City_ID",
+      "City",
+      "Hanzi",
+      "Hanyu_Pinyin",
+      "Regional_Population",
+      "GDP",
+      "city_description",
+      "city_description_embedding",
+      "row_id"
+    ],
+    "hosting_city": [
+      "Year",
+      "Match_ID",
+      "Host_City",
+      "row_id"
+    ],
+    "temperature": [
+      "City_ID",
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+      "row_id"
+    ]
+  },
+  "coffee_shop": {
+    "happy_hour": [
+      "HH_ID",
+      "Shop_ID",
+      "Month",
+      "Num_of_shaff_in_charge",
+      "row_id"
+    ],
+    "member": [
+      "Member_ID",
+      "Name",
+      "Membership_card",
+      "Age",
+      "Time_of_purchase",
+      "Level_of_membership",
+      "Address",
+      "member_description",
+      "member_description_embedding",
+      "row_id"
+    ],
+    "shop": [
+      "Shop_ID",
+      "Address",
+      "Num_of_staff",
+      "Score",
+      "Open_Year",
+      "shop_description",
+      "shop_description_embedding",
+      "row_id"
+    ],
+    "happy_hour_member": [
+      "HH_ID",
+      "Member_ID",
+      "Total_amount",
+      "row_id"
+    ]
+  },
+  "college_1": {
+    "PROFESSOR": [
+      "EMP_NUM",
+      "DEPT_CODE",
+      "PROF_OFFICE",
+      "PROF_EXTENSION",
+      "PROF_HIGH_DEGREE",
+      "PROFESSOR_description",
+      "PROFESSOR_description_embedding",
+      "row_id"
+    ],
+    "STUDENT": [
+      "STU_NUM",
+      "STU_LNAME",
+      "STU_FNAME",
+      "STU_INIT",
+      "STU_DOB",
+      "STU_HRS",
+      "STU_CLASS",
+      "STU_GPA",
+      "STU_TRANSFER",
+      "DEPT_CODE",
+      "STU_PHONE",
+      "PROF_NUM",
+      "STUDENT_description",
+      "STUDENT_description_embedding",
+      "row_id"
+    ],
+    "CLASS": [
+      "CLASS_CODE",
+      "CRS_CODE",
+      "CLASS_SECTION",
+      "CLASS_TIME",
+      "CLASS_ROOM",
+      "PROF_NUM",
+      "CLASS_description",
+      "CLASS_description_embedding",
+      "row_id"
+    ],
+    "ENROLL": [
+      "CLASS_CODE",
+      "STU_NUM",
+      "ENROLL_GRADE",
+      "row_id"
+    ],
+    "EMPLOYEE": [
+      "EMP_NUM",
+      "EMP_LNAME",
+      "EMP_FNAME",
+      "EMP_INITIAL",
+      "EMP_JOBCODE",
+      "EMP_HIREDATE",
+      "EMP_DOB",
+      "EMPLOYEE_description",
+      "EMPLOYEE_description_embedding",
+      "row_id"
+    ],
+    "COURSE": [
+      "CRS_CODE",
+      "DEPT_CODE",
+      "CRS_DESCRIPTION",
+      "CRS_CREDIT",
+      "CRS_DESCRIPTION_embedding",
+      "row_id"
+    ],
+    "DEPARTMENT": [
+      "DEPT_CODE",
+      "DEPT_NAME",
+      "SCHOOL_CODE",
+      "EMP_NUM",
+      "DEPT_ADDRESS",
+      "DEPT_EXTENSION",
+      "DEPARTMENT_description",
+      "DEPARTMENT_description_embedding",
+      "row_id"
+    ]
+  },
+  "college_2": {
+    "prereq": [
+      "course_id",
+      "prereq_id",
+      "row_id"
+    ],
+    "teaches": [
+      "ID",
+      "course_id",
+      "sec_id",
+      "semester",
+      "year",
+      "row_id"
+    ],
+    "takes": [
+      "ID",
+      "course_id",
+      "sec_id",
+      "semester",
+      "year",
+      "grade",
+      "row_id"
+    ],
+    "section": [
+      "course_id",
+      "sec_id",
+      "semester",
+      "year",
+      "building",
+      "room_number",
+      "time_slot_id",
+      "section_description",
+      "section_description_embedding",
+      "row_id"
+    ],
+    "instructor": [
+      "ID",
+      "name",
+      "dept_name",
+      "salary",
+      "instructor_description",
+      "instructor_description_embedding",
+      "row_id"
+    ],
+    "department": [
+      "dept_name",
+      "building",
+      "budget",
+      "department_description",
+      "department_description_embedding",
+      "row_id"
+    ],
+    "advisor": [
+      "s_ID",
+      "i_ID",
+      "row_id"
+    ],
+    "student": [
+      "ID",
+      "name",
+      "dept_name",
+      "tot_cred",
+      "student_description",
+      "student_description_embedding",
+      "row_id"
+    ],
+    "time_slot": [
+      "time_slot_id",
+      "day",
+      "start_hr",
+      "start_min",
+      "end_hr",
+      "end_min",
+      "row_id"
+    ],
+    "classroom": [
+      "building",
+      "room_number",
+      "capacity",
+      "classroom_description",
+      "classroom_description_embedding",
+      "row_id"
+    ],
+    "course": [
+      "course_id",
+      "title",
+      "dept_name",
+      "credits",
+      "course_description",
+      "course_description_embedding",
+      "row_id"
+    ]
+  },
+  "college_3": {
+    "Gradeconversion": [
+      "lettergrade",
+      "gradepoint",
+      "row_id"
+    ],
+    "Course": [
+      "CID",
+      "CName",
+      "Credits",
+      "Instructor",
+      "Days",
+      "Hours",
+      "DNO",
+      "Course_description",
+      "Course_description_embedding",
+      "row_id"
+    ],
+    "Minor_in": [
+      "StuID",
+      "DNO",
+      "row_id"
+    ],
+    "Member_of": [
+      "FacID",
+      "DNO",
+      "Appt_Type",
+      "row_id"
+    ],
+    "Student": [
+      "StuID",
+      "LName",
+      "Fname",
+      "Age",
+      "Sex",
+      "Major",
+      "Advisor",
+      "city_code",
+      "Student_description",
+      "Student_description_embedding",
+      "row_id"
+    ],
+    "Department": [
+      "DNO",
+      "Division",
+      "DName",
+      "Room",
+      "Building",
+      "DPhone",
+      "Department_description",
+      "Department_description_embedding",
+      "row_id"
+    ],
+    "Faculty": [
+      "FacID",
+      "Lname",
+      "Fname",
+      "Rank",
+      "Sex",
+      "Phone",
+      "Room",
+      "Building",
+      "Faculty_description",
+      "Faculty_description_embedding",
+      "row_id"
+    ],
+    "Enrolled_in": [
+      "StuID",
+      "CID",
+      "Grade",
+      "row_id"
+    ]
+  },
+  "company_1": {
+    "dept_locations": [
+      "Dnumber",
+      "Dlocation",
+      "row_id"
+    ],
+    "dependent": [
+      "Essn",
+      "Dependent_name",
+      "Sex",
+      "Bdate",
+      "Relationship",
+      "dependent_description",
+      "dependent_description_embedding",
+      "row_id"
+    ],
+    "department": [
+      "Dname",
+      "Dnumber",
+      "Mgr_ssn",
+      "Mgr_start_date",
+      "department_description",
+      "department_description_embedding",
+      "row_id"
+    ],
+    "employee": [
+      "Fname",
+      "Minit",
+      "Lname",
+      "Ssn",
+      "Bdate",
+      "Address",
+      "Sex",
+      "Salary",
+      "Super_ssn",
+      "Dno",
+      "employee_description",
+      "employee_description_embedding",
+      "row_id"
+    ],
+    "works_on": [
+      "Essn",
+      "Pno",
+      "Hours",
+      "row_id"
+    ],
+    "project": [
+      "Pname",
+      "Pnumber",
+      "Plocation",
+      "Dnum",
+      "project_description",
+      "project_description_embedding",
+      "row_id"
+    ]
+  },
+  "company_employee": {
+    "company": [
+      "Company_ID",
+      "Name",
+      "Headquarters",
+      "Industry",
+      "Sales_in_Billion",
+      "Profits_in_Billion",
+      "Assets_in_Billion",
+      "Market_Value_in_Billion",
+      "company_description",
+      "company_description_embedding",
+      "row_id"
+    ],
+    "people": [
+      "People_ID",
+      "Age",
+      "Name",
+      "Nationality",
+      "Graduation_College",
+      "people_description",
+      "people_description_embedding",
+      "row_id"
+    ],
+    "employment": [
+      "Company_ID",
+      "People_ID",
+      "Year_working",
+      "row_id"
+    ]
+  },
+  "company_office": {
+    "Office_locations": [
+      "building_id",
+      "company_id",
+      "move_in_year",
+      "row_id"
+    ],
+    "Companies": [
+      "id",
+      "name",
+      "Headquarters",
+      "Industry",
+      "Sales_billion",
+      "Profits_billion",
+      "Assets_billion",
+      "Market_Value_billion",
+      "Companies_description",
+      "Companies_description_embedding",
+      "row_id"
+    ],
+    "buildings": [
+      "id",
+      "name",
+      "City",
+      "Height",
+      "Stories",
+      "Status",
+      "buildings_description",
+      "Status_embedding",
+      "buildings_description_embedding",
+      "row_id"
+    ]
+  },
+  "concert_singer": {
+    "singer_in_concert": [
+      "concert_ID",
+      "Singer_ID",
+      "row_id"
+    ],
+    "concert": [
+      "concert_ID",
+      "concert_Name",
+      "Theme",
+      "Stadium_ID",
+      "Year",
+      "concert_description",
+      "Theme_embedding",
+      "concert_description_embedding",
+      "row_id"
+    ],
+    "stadium": [
+      "Stadium_ID",
+      "Location",
+      "Name",
+      "Capacity",
+      "Highest",
+      "Lowest",
+      "Average",
+      "stadium_description",
+      "stadium_description_embedding",
+      "row_id"
+    ],
+    "singer": [
+      "Singer_ID",
+      "Name",
+      "Country",
+      "Song_Name",
+      "Song_release_year",
+      "Age",
+      "Is_male",
+      "singer_description",
+      "singer_description_embedding",
+      "row_id"
+    ]
+  },
+  "course_teach": {
+    "course": [
+      "Course_ID",
+      "Staring_Date",
+      "Course",
+      "course_description",
+      "course_description_embedding",
+      "row_id"
+    ],
+    "course_arrange": [
+      "Course_ID",
+      "Teacher_ID",
+      "Grade",
+      "row_id"
+    ],
+    "teacher": [
+      "Teacher_ID",
+      "Name",
+      "Age",
+      "Hometown",
+      "teacher_description",
+      "teacher_description_embedding",
+      "row_id"
+    ]
+  },
+  "customer_complaints": {
+    "Products": [
+      "product_id",
+      "parent_product_id",
+      "product_category_code",
+      "date_product_first_available",
+      "date_product_discontinued",
+      "product_name",
+      "product_description",
+      "product_price",
+      "product_description_embedding",
+      "row_id"
+    ],
+    "Staff": [
+      "staff_id",
+      "gender",
+      "first_name",
+      "last_name",
+      "email_address",
+      "phone_number",
+      "Staff_description",
+      "Staff_description_embedding",
+      "row_id"
+    ],
+    "Complaints": [
+      "complaint_id",
+      "product_id",
+      "customer_id",
+      "complaint_outcome_code",
+      "complaint_status_code",
+      "complaint_type_code",
+      "date_complaint_raised",
+      "date_complaint_closed",
+      "staff_id",
+      "Complaints_description",
+      "Complaints_description_embedding",
+      "row_id"
+    ],
+    "Customers": [
+      "customer_id",
+      "customer_type_code",
+      "address_line_1",
+      "address_line_2",
+      "town_city",
+      "state",
+      "email_address",
+      "phone_number",
+      "Customers_description",
+      "Customers_description_embedding",
+      "row_id"
+    ]
+  },
+  "customer_deliveries": {
+    "Order_Deliveries": [
+      "location_code",
+      "actual_order_id",
+      "delivery_status_code",
+      "driver_employee_id",
+      "truck_id",
+      "delivery_date",
+      "row_id"
+    ],
+    "Trucks": [
+      "truck_id",
+      "truck_licence_number",
+      "truck_details",
+      "Trucks_description",
+      "row_id"
+    ],
+    "Delivery_Route_Locations": [
+      "location_code",
+      "route_id",
+      "location_address_id",
+      "location_name",
+      "row_id"
+    ],
+    "Regular_Order_Products": [
+      "regular_order_id",
+      "product_id",
+      "row_id"
+    ],
+    "Addresses": [
+      "address_id",
+      "address_details",
+      "city",
+      "zip_postcode",
+      "state_province_county",
+      "country",
+      "Addresses_description",
+      "address_details_embedding",
+      "row_id"
+    ],
+    "Employees": [
+      "employee_id",
+      "employee_address_id",
+      "employee_name",
+      "employee_phone",
+      "Employees_description",
+      "row_id"
+    ],
+    "Products": [
+      "product_id",
+      "product_name",
+      "product_price",
+      "product_description",
+      "product_description_embedding",
+      "row_id"
+    ],
+    "Actual_Order_Products": [
+      "actual_order_id",
+      "product_id",
+      "row_id"
+    ],
+    "Delivery_Routes": [
+      "route_id",
+      "route_name",
+      "other_route_details",
+      "Delivery_Routes_description",
+      "other_route_details_embedding",
+      "row_id"
+    ],
+    "Customers": [
+      "customer_id",
+      "payment_method",
+      "customer_name",
+      "customer_phone",
+      "customer_email",
+      "date_became_customer",
+      "Customers_description",
+      "row_id"
+    ],
+    "Regular_Orders": [
+      "regular_order_id",
+      "distributer_id",
+      "row_id"
+    ],
+    "Actual_Orders": [
+      "actual_order_id",
+      "order_status_code",
+      "regular_order_id",
+      "actual_order_date",
+      "row_id"
+    ],
+    "Customer_Addresses": [
+      "customer_id",
+      "address_id",
+      "date_from",
+      "address_type",
+      "date_to",
+      "row_id"
+    ]
+  },
+  "customers_and_products_contacts": {
+    "Customer_Address_History": [
+      "customer_id",
+      "address_id",
+      "date_from",
+      "date_to",
+      "row_id"
+    ],
+    "Contacts": [
+      "contact_id",
+      "customer_id",
+      "gender",
+      "first_name",
+      "last_name",
+      "contact_phone",
+      "Contacts_description",
+      "Contacts_description_embedding",
+      "row_id"
+    ],
+    "Addresses": [
+      "address_id",
+      "line_1_number_building",
+      "city",
+      "zip_postcode",
+      "state_province_county",
+      "country",
+      "Addresses_description",
+      "Addresses_description_embedding",
+      "row_id"
+    ],
+    "Order_Items": [
+      "order_item_id",
+      "order_id",
+      "product_id",
+      "order_quantity",
+      "row_id"
+    ],
+    "Products": [
+      "product_id",
+      "product_type_code",
+      "product_name",
+      "product_price",
+      "Products_description",
+      "Products_description_embedding",
+      "row_id"
+    ],
+    "Customers": [
+      "customer_id",
+      "payment_method_code",
+      "customer_number",
+      "customer_name",
+      "customer_address",
+      "customer_phone",
+      "customer_email",
+      "Customers_description",
+      "Customers_description_embedding",
+      "row_id"
+    ],
+    "Customer_Orders": [
+      "order_id",
+      "customer_id",
+      "order_date",
+      "order_status_code",
+      "row_id"
+    ]
+  },
+  "debate": {
+    "debate_people": [
+      "Debate_ID",
+      "Affirmative",
+      "Negative",
+      "If_Affirmative_Win",
+      "row_id"
+    ],
+    "debate": [
+      "Debate_ID",
+      "Date",
+      "Venue",
+      "Num_of_Audience",
+      "debate_description",
+      "debate_description_embedding",
+      "row_id"
+    ],
+    "people": [
+      "People_ID",
+      "District",
+      "Name",
+      "Party",
+      "Age",
+      "people_description",
+      "people_description_embedding",
+      "row_id"
+    ]
+  },
+  "decoration_competition": {
+    "member": [
+      "Member_ID",
+      "Name",
+      "Country",
+      "College_ID",
+      "member_description",
+      "member_description_embedding",
+      "row_id"
+    ],
+    "college": [
+      "College_ID",
+      "Name",
+      "Leader_Name",
+      "College_Location",
+      "college_description",
+      "college_description_embedding",
+      "row_id"
+    ],
+    "round": [
+      "Round_ID",
+      "Member_ID",
+      "Decoration_Theme",
+      "Rank_in_Round",
+      "Decoration_Theme_embedding",
+      "row_id"
+    ]
+  },
+  "department_store": {
+    "Departments": [
+      "department_id",
+      "dept_store_id",
+      "department_name",
+      "Departments_description",
+      "Departments_description_embedding",
+      "row_id"
+    ],
+    "Department_Stores": [
+      "dept_store_id",
+      "dept_store_chain_id",
+      "store_name",
+      "store_address",
+      "store_phone",
+      "store_email",
+      "Department_Stores_description",
+      "Department_Stores_description_embedding",
+      "row_id"
+    ],
+    "Customer_Addresses": [
+      "customer_id",
+      "address_id",
+      "date_from",
+      "date_to",
+      "row_id"
+    ],
+    "Products": [
+      "product_id",
+      "product_type_code",
+      "product_name",
+      "product_price",
+      "Products_description",
+      "Products_description_embedding",
+      "row_id"
+    ],
+    "Product_Suppliers": [
+      "product_id",
+      "supplier_id",
+      "date_supplied_from",
+      "date_supplied_to",
+      "total_amount_purchased",
+      "total_value_purchased",
+      "row_id"
+    ],
+    "Customer_Orders": [
+      "order_id",
+      "customer_id",
+      "order_status_code",
+      "order_date",
+      "row_id"
+    ],
+    "Suppliers": [
+      "supplier_id",
+      "supplier_name",
+      "supplier_phone",
+      "Suppliers_description",
+      "Suppliers_description_embedding",
+      "row_id"
+    ],
+    "Addresses": [
+      "address_id",
+      "address_details",
+      "address_details_embedding",
+      "row_id"
+    ],
+    "Staff": [
+      "staff_id",
+      "staff_gender",
+      "staff_name",
+      "Staff_description",
+      "Staff_description_embedding",
+      "row_id"
+    ],
+    "Supplier_Addresses": [
+      "supplier_id",
+      "address_id",
+      "date_from",
+      "date_to",
+      "row_id"
+    ],
+    "Order_Items": [
+      "order_item_id",
+      "order_id",
+      "product_id",
+      "row_id"
+    ],
+    "Staff_Department_Assignments": [
+      "staff_id",
+      "department_id",
+      "date_assigned_from",
+      "job_title_code",
+      "date_assigned_to",
+      "row_id"
+    ],
+    "Department_Store_Chain": [
+      "dept_store_chain_id",
+      "dept_store_chain_name",
+      "Department_Store_Chain_description",
+      "Department_Store_Chain_description_embedding",
+      "row_id"
+    ],
+    "Customers": [
+      "customer_id",
+      "payment_method_code",
+      "customer_code",
+      "customer_name",
+      "customer_address",
+      "customer_phone",
+      "customer_email",
+      "Customers_description",
+      "Customers_description_embedding",
+      "row_id"
+    ]
+  },
+  "device": {
+    "stock": [
+      "Shop_ID",
+      "Device_ID",
+      "Quantity",
+      "row_id"
+    ],
+    "shop": [
+      "Shop_ID",
+      "Shop_Name",
+      "Location",
+      "Open_Date",
+      "Open_Year",
+      "shop_description",
+      "shop_description_embedding",
+      "row_id"
+    ],
+    "device": [
+      "Device_ID",
+      "Device",
+      "Carrier",
+      "Package_Version",
+      "Applications",
+      "Software_Platform",
+      "device_description",
+      "device_description_embedding",
+      "row_id"
+    ]
+  },
+  "driving_school": {
+    "Lessons": [
+      "lesson_id",
+      "customer_id",
+      "lesson_status_code",
+      "staff_id",
+      "vehicle_id",
+      "lesson_date",
+      "lesson_time",
+      "price",
+      "Lessons_description",
+      "row_id"
+    ],
+    "Customer_Payments": [
+      "customer_id",
+      "datetime_payment",
+      "payment_method_code",
+      "amount_payment",
+      "row_id"
+    ],
+    "Customers": [
+      "customer_id",
+      "customer_address_id",
+      "customer_status_code",
+      "date_became_customer",
+      "date_of_birth",
+      "first_name",
+      "last_name",
+      "amount_outstanding",
+      "email_address",
+      "phone_number",
+      "cell_mobile_phone_number",
+      "Customers_description",
+      "row_id"
+    ],
+    "Vehicles": [
+      "vehicle_id",
+      "vehicle_details",
+      "Vehicles_description",
+      "row_id"
+    ],
+    "Staff": [
+      "staff_id",
+      "staff_address_id",
+      "nickname",
+      "first_name",
+      "middle_name",
+      "last_name",
+      "date_of_birth",
+      "date_joined_staff",
+      "date_left_staff",
+      "Staff_description",
+      "row_id"
+    ],
+    "Addresses": [
+      "address_id",
+      "line_1_number_building",
+      "city",
+      "zip_postcode",
+      "state_province_county",
+      "country",
+      "Addresses_description",
+      "row_id"
+    ]
+  },
+  "e_government": {
+    "Party_Forms": [
+      "party_id",
+      "form_id",
+      "date_completion_started",
+      "form_status_code",
+      "date_fully_completed",
+      "row_id"
+    ],
+    "Parties": [
+      "party_id",
+      "payment_method_code",
+      "party_phone",
+      "party_email",
+      "Parties_description",
+      "Parties_description_embedding",
+      "row_id"
+    ],
+    "Organizations": [
+      "organization_id",
+      "date_formed",
+      "organization_name",
+      "uk_vat_number",
+      "Organizations_description",
+      "Organizations_description_embedding",
+      "row_id"
+    ],
+    "Organization_Contact_Individuals": [
+      "individual_id",
+      "organization_id",
+      "date_contact_from",
+      "date_contact_to",
+      "row_id"
+    ],
+    "Party_Services": [
+      "booking_id",
+      "customer_id",
+      "service_id",
+      "service_datetime",
+      "booking_made_date",
+      "row_id"
+    ],
+    "Addresses": [
+      "address_id",
+      "line_1_number_building",
+      "town_city",
+      "zip_postcode",
+      "state_province_county",
+      "country",
+      "Addresses_description",
+      "Addresses_description_embedding",
+      "row_id"
+    ],
+    "Party_Addresses": [
+      "party_id",
+      "address_id",
+      "date_address_from",
+      "address_type_code",
+      "date_address_to",
+      "row_id"
+    ],
+    "Individuals": [
+      "individual_id",
+      "individual_first_name",
+      "individual_middle_name",
+      "inidividual_phone",
+      "individual_email",
+      "individual_address",
+      "individual_last_name",
+      "Individuals_description",
+      "Individuals_description_embedding",
+      "row_id"
+    ],
+    "Services": [
+      "service_id",
+      "service_type_code",
+      "service_name",
+      "service_descriptio",
+      "row_id"
+    ],
+    "Forms": [
+      "form_id",
+      "form_type_code",
+      "service_id",
+      "form_number",
+      "form_name",
+      "form_description",
+      "form_description_embedding",
+      "row_id"
+    ]
+  },
+  "election": {
+    "election": [
+      "Election_ID",
+      "Counties_Represented",
+      "District",
+      "Delegate",
+      "Party",
+      "First_Elected",
+      "Committee",
+      "election_description",
+      "election_description_embedding",
+      "row_id"
+    ],
+    "county": [
+      "County_Id",
+      "County_name",
+      "Population",
+      "Zip_code",
+      "county_description",
+      "county_description_embedding",
+      "row_id"
+    ],
+    "party": [
+      "Party_ID",
+      "Year",
+      "Party",
+      "Governor",
+      "Lieutenant_Governor",
+      "Comptroller",
+      "Attorney_General",
+      "US_Senate",
+      "party_description",
+      "party_description_embedding",
+      "row_id"
+    ]
+  },
+  "election_representative": {
+    "election": [
+      "Election_ID",
+      "Representative_ID",
+      "Date",
+      "Votes",
+      "Vote_Percent",
+      "Seats",
+      "Place",
+      "row_id"
+    ],
+    "representative": [
+      "Representative_ID",
+      "Name",
+      "State",
+      "Party",
+      "Lifespan",
+      "representative_description",
+      "representative_description_embedding",
+      "row_id"
+    ]
+  },
+  "employee_hire_evaluation": {
+    "shop": [
+      "Shop_ID",
+      "Name",
+      "Location",
+      "District",
+      "Number_products",
+      "Manager_name",
+      "shop_description",
+      "shop_description_embedding",
+      "row_id"
+    ],
+    "evaluation": [
+      "Employee_ID",
+      "Year_awarded",
+      "Bonus",
+      "row_id"
+    ],
+    "employee": [
+      "Employee_ID",
+      "Name",
+      "Age",
+      "City",
+      "employee_description",
+      "employee_description_embedding",
+      "row_id"
+    ],
+    "hiring": [
+      "Shop_ID",
+      "Employee_ID",
+      "Start_from",
+      "Is_full_time",
+      "row_id"
+    ]
+  },
+  "entertainment_awards": {
+    "nomination": [
+      "Artwork_ID",
+      "Festival_ID",
+      "Result",
+      "row_id"
+    ],
+    "artwork": [
+      "Artwork_ID",
+      "Type",
+      "Name",
+      "artwork_description",
+      "artwork_description_embedding",
+      "row_id"
+    ],
+    "festival_detail": [
+      "Festival_ID",
+      "Festival_Name",
+      "Chair_Name",
+      "Location",
+      "Year",
+      "Num_of_Audience",
+      "festival_detail_description",
+      "festival_detail_description_embedding",
+      "row_id"
+    ]
+  },
+  "flight_company": {
+    "operate_company": [
+      "id",
+      "name",
+      "Type",
+      "Principal_activities",
+      "Incorporated_in",
+      "Group_Equity_Shareholding",
+      "operate_company_description",
+      "operate_company_description_embedding",
+      "row_id"
+    ],
+    "airport": [
+      "id",
+      "City",
+      "Country",
+      "IATA",
+      "ICAO",
+      "name",
+      "airport_description",
+      "airport_description_embedding",
+      "row_id"
+    ],
+    "flight": [
+      "id",
+      "Vehicle_Flight_number",
+      "Date",
+      "Pilot",
+      "Velocity",
+      "Altitude",
+      "airport_id",
+      "company_id",
+      "flight_description",
+      "flight_description_embedding",
+      "row_id"
+    ]
+  },
+  "hospital_1": {
+    "Stay": [
+      "StayID",
+      "Patient",
+      "Room",
+      "StayStart",
+      "StayEnd",
+      "Stay_description",
+      "Stay_description_embedding",
+      "row_id"
+    ],
+    "On_Call": [
+      "Nurse",
+      "BlockFloor",
+      "BlockCode",
+      "OnCallStart",
+      "OnCallEnd",
+      "row_id"
+    ],
+    "Block": [
+      "BlockFloor",
+      "BlockCode",
+      "row_id"
+    ],
+    "Medication": [
+      "Code",
+      "Name",
+      "Brand",
+      "Description",
+      "Medication_description",
+      "Medication_description_embedding",
+      "row_id"
+    ],
+    "Room": [
+      "RoomNumber",
+      "RoomType",
+      "BlockFloor",
+      "BlockCode",
+      "Unavailable",
+      "Room_description",
+      "Room_description_embedding",
+      "row_id"
+    ],
+    "Nurse": [
+      "EmployeeID",
+      "Name",
+      "Position",
+      "Registered",
+      "SSN",
+      "Nurse_description",
+      "Nurse_description_embedding",
+      "row_id"
+    ],
+    "Prescribes": [
+      "Physician",
+      "Patient",
+      "Medication",
+      "Date",
+      "Appointment",
+      "Dose",
+      "row_id"
+    ],
+    "Patient": [
+      "SSN",
+      "Name",
+      "Address",
+      "Phone",
+      "InsuranceID",
+      "PCP",
+      "Patient_description",
+      "Patient_description_embedding",
+      "row_id"
+    ],
+    "Trained_In": [
+      "Physician",
+      "Treatment",
+      "CertificationDate",
+      "CertificationExpires",
+      "row_id"
+    ],
+    "Appointment": [
+      "AppointmentID",
+      "Patient",
+      "PrepNurse",
+      "Physician",
+      "Start",
+      "End",
+      "ExaminationRoom",
+      "Appointment_description",
+      "Appointment_description_embedding",
+      "row_id"
+    ],
+    "Physician": [
+      "EmployeeID",
+      "Name",
+      "Position",
+      "SSN",
+      "Physician_description",
+      "Physician_description_embedding",
+      "row_id"
+    ],
+    "Department": [
+      "DepartmentID",
+      "Name",
+      "Head",
+      "Department_description",
+      "Department_description_embedding",
+      "row_id"
+    ],
+    "Undergoes": [
+      "Patient",
+      "Procedures",
+      "Stay",
+      "DateUndergoes",
+      "Physician",
+      "AssistingNurse",
+      "row_id"
+    ],
+    "Procedures": [
+      "Code",
+      "Name",
+      "Cost",
+      "Procedures_description",
+      "Procedures_description_embedding",
+      "row_id"
+    ],
+    "Affiliated_With": [
+      "Physician",
+      "Department",
+      "PrimaryAffiliation",
+      "row_id"
+    ]
+  },
+  "icfp_1": {
+    "Papers": [
+      "paperID",
+      "title",
+      "Papers_description",
+      "title_embedding",
+      "Papers_description_embedding",
+      "row_id"
+    ],
+    "Authors": [
+      "authID",
+      "lname",
+      "fname",
+      "Authors_description",
+      "Authors_description_embedding",
+      "row_id"
+    ],
+    "Inst": [
+      "instID",
+      "name",
+      "country",
+      "Inst_description",
+      "Inst_description_embedding",
+      "row_id"
+    ],
+    "Authorship": [
+      "authID",
+      "instID",
+      "paperID",
+      "authOrder",
+      "row_id"
+    ]
+  },
+  "imdb": {
+    "writer": [
+      "wid",
+      "gender",
+      "name",
+      "nationality",
+      "num_of_episodes",
+      "birth_city",
+      "birth_year",
+      "writer_description",
+      "row_id"
+    ],
+    "movie": [
+      "mid",
+      "title",
+      "release_year",
+      "title_aka",
+      "budget",
+      "movie_description",
+      "title_embedding",
+      "title_aka_embedding",
+      "row_id"
+    ],
+    "company": [
+      "id",
+      "name",
+      "country_code",
+      "company_description",
+      "row_id"
+    ],
+    "cast": [
+      "id",
+      "msid",
+      "aid",
+      "role",
+      "row_id"
+    ],
+    "director": [
+      "did",
+      "gender",
+      "name",
+      "nationality",
+      "birth_city",
+      "birth_year",
+      "director_description",
+      "row_id"
+    ],
+    "classification": [
+      "id",
+      "msid",
+      "gid",
+      "row_id"
+    ],
+    "genre": [
+      "gid",
+      "genre",
+      "row_id"
+    ],
+    "copyright": [
+      "id",
+      "msid",
+      "cid",
+      "row_id"
+    ],
+    "actor": [
+      "aid",
+      "gender",
+      "name",
+      "nationality",
+      "birth_city",
+      "birth_year",
+      "actor_description",
+      "row_id"
+    ],
+    "directed_by": [
+      "id",
+      "msid",
+      "did",
+      "row_id"
+    ],
+    "keyword": [
+      "id",
+      "keyword",
+      "row_id"
+    ],
+    "made_by": [
+      "id",
+      "msid",
+      "pid",
+      "row_id"
+    ],
+    "tags": [
+      "id",
+      "msid",
+      "kid",
+      "row_id"
+    ],
+    "written_by": [
+      "id",
+      "msid",
+      "wid",
+      "row_id"
+    ],
+    "producer": [
+      "pid",
+      "gender",
+      "name",
+      "nationality",
+      "birth_city",
+      "birth_year",
+      "producer_description",
+      "row_id"
+    ],
+    "tv_series": [
+      "sid",
+      "title",
+      "release_year",
+      "num_of_seasons",
+      "num_of_episodes",
+      "title_aka",
+      "budget",
+      "tv_series_description",
+      "title_embedding",
+      "title_aka_embedding",
+      "row_id"
+    ]
+  },
+  "inn_1": {
+    "Reservations": [
+      "Code",
+      "Room",
+      "CheckIn",
+      "CheckOut",
+      "Rate",
+      "LastName",
+      "FirstName",
+      "Adults",
+      "Kids",
+      "Reservations_description",
+      "row_id"
+    ],
+    "Rooms": [
+      "RoomId",
+      "roomName",
+      "beds",
+      "bedType",
+      "maxOccupancy",
+      "basePrice",
+      "decor",
+      "Rooms_description",
+      "row_id"
+    ]
+  },
+  "insurance_fnol": {
+    "Claims": [
+      "Claim_ID",
+      "FNOL_ID",
+      "Effective_Date",
+      "row_id"
+    ],
+    "Services": [
+      "Service_ID",
+      "Service_name",
+      "Services_description",
+      "Services_description_embedding",
+      "row_id"
+    ],
+    "Settlements": [
+      "Settlement_ID",
+      "Claim_ID",
+      "Effective_Date",
+      "Settlement_Amount",
+      "row_id"
+    ],
+    "Customers_Policies": [
+      "Customer_ID",
+      "Policy_ID",
+      "Date_Opened",
+      "Date_Closed",
+      "row_id"
+    ],
+    "Customers": [
+      "Customer_ID",
+      "Customer_name",
+      "Customers_description",
+      "Customers_description_embedding",
+      "row_id"
+    ],
+    "Available_Policies": [
+      "Policy_ID",
+      "policy_type_code",
+      "Customer_Phone",
+      "Available_Policies_description",
+      "Available_Policies_description_embedding",
+      "row_id"
+    ],
+    "First_Notification_of_Loss": [
+      "FNOL_ID",
+      "Customer_ID",
+      "Policy_ID",
+      "Service_ID",
+      "row_id"
+    ]
+  },
+  "insurance_policies": {
+    "Payments": [
+      "Payment_ID",
+      "Settlement_ID",
+      "Payment_Method_Code",
+      "Date_Payment_Made",
+      "Amount_Payment",
+      "row_id"
+    ],
+    "Settlements": [
+      "Settlement_ID",
+      "Claim_ID",
+      "Date_Claim_Made",
+      "Date_Claim_Settled",
+      "Amount_Claimed",
+      "Amount_Settled",
+      "Customer_Policy_ID",
+      "Settlements_description",
+      "Settlements_description_embedding",
+      "row_id"
+    ],
+    "Customer_Policies": [
+      "Policy_ID",
+      "Customer_ID",
+      "Policy_Type_Code",
+      "Start_Date",
+      "End_Date",
+      "row_id"
+    ],
+    "Customers": [
+      "Customer_ID",
+      "Customer_Details",
+      "Customers_description",
+      "Customers_description_embedding",
+      "row_id"
+    ],
+    "Claims": [
+      "Claim_ID",
+      "Policy_ID",
+      "Date_Claim_Made",
+      "Date_Claim_Settled",
+      "Amount_Claimed",
+      "Amount_Settled",
+      "Claims_description",
+      "Claims_description_embedding",
+      "row_id"
+    ]
+  },
+  "local_govt_and_lot": {
+    "Customer_Events": [
+      "Customer_Event_ID",
+      "customer_id",
+      "date_moved_in",
+      "property_id",
+      "resident_id",
+      "thing_id",
+      "row_id"
+    ],
+    "Timed_Locations_of_Things": [
+      "thing_id",
+      "Date_and_Time",
+      "Location_Code",
+      "row_id"
+    ],
+    "Things": [
+      "thing_id",
+      "organization_id",
+      "Type_of_Thing_Code",
+      "service_type_code",
+      "service_details",
+      "Things_description",
+      "service_details_embedding",
+      "row_id"
+    ],
+    "Customer_Event_Notes": [
+      "Customer_Event_Note_ID",
+      "Customer_Event_ID",
+      "service_type_code",
+      "resident_id",
+      "property_id",
+      "date_moved_in",
+      "Customer_Event_Notes_description",
+      "row_id"
+    ],
+    "Residents_Services": [
+      "resident_id",
+      "service_id",
+      "date_moved_in",
+      "property_id",
+      "date_requested",
+      "date_provided",
+      "other_details",
+      "other_details_embedding",
+      "row_id"
+    ],
+    "Services": [
+      "service_id",
+      "organization_id",
+      "service_type_code",
+      "service_details",
+      "Services_description",
+      "service_details_embedding",
+      "row_id"
+    ],
+    "Organizations": [
+      "organization_id",
+      "parent_organization_id",
+      "organization_details",
+      "Organizations_description",
+      "organization_details_embedding",
+      "row_id"
+    ],
+    "Customers": [
+      "customer_id",
+      "customer_details",
+      "Customers_description",
+      "customer_details_embedding",
+      "row_id"
+    ],
+    "Properties": [
+      "property_id",
+      "property_type_code",
+      "property_address",
+      "other_details",
+      "Properties_description",
+      "other_details_embedding",
+      "row_id"
+    ],
+    "Timed_Status_of_Things": [
+      "thing_id",
+      "Date_and_Date",
+      "Status_of_Thing_Code",
+      "row_id"
+    ],
+    "Residents": [
+      "resident_id",
+      "property_id",
+      "date_moved_in",
+      "date_moved_out",
+      "other_details",
+      "Residents_description",
+      "other_details_embedding",
+      "row_id"
+    ]
+  },
+  "local_govt_mdm": {
+    "Electoral_Register": [
+      "electoral_register_id",
+      "cmi_cross_ref_id",
+      "row_id"
+    ],
+    "Rent_Arrears": [
+      "council_tax_id",
+      "cmi_cross_ref_id",
+      "row_id"
+    ],
+    "Parking_Fines": [
+      "council_tax_id",
+      "cmi_cross_ref_id",
+      "row_id"
+    ],
+    "Benefits_Overpayments": [
+      "council_tax_id",
+      "cmi_cross_ref_id",
+      "row_id"
+    ],
+    "Business_Rates": [
+      "business_rates_id",
+      "cmi_cross_ref_id",
+      "row_id"
+    ],
+    "CMI_Cross_References": [
+      "cmi_cross_ref_id",
+      "master_customer_id",
+      "source_system_code",
+      "row_id"
+    ],
+    "Council_Tax": [
+      "council_tax_id",
+      "cmi_cross_ref_id",
+      "row_id"
+    ],
+    "Customer_Master_Index": [
+      "master_customer_id",
+      "cmi_details",
+      "Customer_Master_Index_description",
+      "cmi_details_embedding",
+      "Customer_Master_Index_description_embedding",
+      "row_id"
+    ]
+  },
+  "match_season": {
+    "player": [
+      "Player_ID",
+      "Player",
+      "Years_Played",
+      "Total_WL",
+      "Singles_WL",
+      "Doubles_WL",
+      "Team",
+      "player_description",
+      "player_description_embedding",
+      "row_id"
+    ],
+    "team": [
+      "Team_id",
+      "Name",
+      "team_description",
+      "team_description_embedding",
+      "row_id"
+    ],
+    "country": [
+      "Country_id",
+      "Country_name",
+      "Capital",
+      "Official_native_language",
+      "country_description",
+      "country_description_embedding",
+      "row_id"
+    ],
+    "match_season": [
+      "Season",
+      "Player",
+      "Position",
+      "Country",
+      "Team",
+      "Draft_Pick_Number",
+      "Draft_Class",
+      "College",
+      "match_season_description",
+      "match_season_description_embedding",
+      "row_id"
+    ]
+  },
+  "mountain_photos": {
+    "camera_lens": [
+      "id",
+      "brand",
+      "name",
+      "focal_length_mm",
+      "max_aperture",
+      "camera_lens_description",
+      "camera_lens_description_embedding",
+      "row_id"
+    ],
+    "photos": [
+      "id",
+      "camera_lens_id",
+      "mountain_id",
+      "color",
+      "name",
+      "photos_description",
+      "photos_description_embedding",
+      "row_id"
+    ],
+    "mountain": [
+      "id",
+      "name",
+      "Height",
+      "Prominence",
+      "Range",
+      "Country",
+      "mountain_description",
+      "mountain_description_embedding",
+      "row_id"
+    ]
+  },
+  "music_4": {
+    "volume": [
+      "Volume_ID",
+      "Volume_Issue",
+      "Issue_Date",
+      "Weeks_on_Top",
+      "Song",
+      "Artist_ID",
+      "volume_description",
+      "volume_description_embedding",
+      "row_id"
+    ],
+    "music_festival": [
+      "ID",
+      "Music_Festival",
+      "Date_of_ceremony",
+      "Category",
+      "Volume",
+      "Result",
+      "music_festival_description",
+      "music_festival_description_embedding",
+      "row_id"
+    ],
+    "artist": [
+      "Artist_ID",
+      "Artist",
+      "Age",
+      "Famous_Title",
+      "Famous_Release_date",
+      "artist_description",
+      "artist_description_embedding",
+      "row_id"
+    ]
+  },
+  "musical": {
+    "actor": [
+      "Actor_ID",
+      "Name",
+      "Musical_ID",
+      "Character",
+      "Duration",
+      "age",
+      "actor_description",
+      "actor_description_embedding",
+      "row_id"
+    ],
+    "musical": [
+      "Musical_ID",
+      "Name",
+      "Year",
+      "Award",
+      "Category",
+      "Nominee",
+      "Result",
+      "musical_description",
+      "Category_embedding",
+      "musical_description_embedding",
+      "row_id"
+    ]
+  },
+  "network_1": {
+    "Likes": [
+      "student_id",
+      "liked_id",
+      "row_id"
+    ],
+    "Friend": [
+      "student_id",
+      "friend_id",
+      "row_id"
+    ],
+    "Highschooler": [
+      "ID",
+      "name",
+      "grade",
+      "Highschooler_description",
+      "Highschooler_description_embedding",
+      "row_id"
+    ]
+  },
+  "network_2": {
+    "PersonFriend": [
+      "name",
+      "friend",
+      "year",
+      "row_id"
+    ],
+    "Person": [
+      "name",
+      "age",
+      "city",
+      "gender",
+      "job",
+      "Person_description",
+      "Person_description_embedding",
+      "row_id"
+    ]
+  },
+  "party_people": {
+    "party": [
+      "Party_ID",
+      "Minister",
+      "Took_office",
+      "Left_office",
+      "Region_ID",
+      "Party_name",
+      "party_description",
+      "party_description_embedding",
+      "row_id"
+    ],
+    "member": [
+      "Member_ID",
+      "Member_Name",
+      "Party_ID",
+      "In_office",
+      "member_description",
+      "member_description_embedding",
+      "row_id"
+    ],
+    "region": [
+      "Region_ID",
+      "Region_name",
+      "Date",
+      "Label",
+      "Format",
+      "Catalogue",
+      "region_description",
+      "region_description_embedding",
+      "row_id"
+    ],
+    "party_events": [
+      "Event_ID",
+      "Event_Name",
+      "Party_ID",
+      "Member_in_charge_ID",
+      "party_events_description",
+      "party_events_description_embedding",
+      "row_id"
+    ]
+  },
+  "pets_1": {
+    "Pets": [
+      "PetID",
+      "PetType",
+      "pet_age",
+      "weight",
+      "Pets_description",
+      "Pets_description_embedding",
+      "row_id"
+    ],
+    "Has_Pet": [
+      "StuID",
+      "PetID",
+      "row_id"
+    ],
+    "Student": [
+      "StuID",
+      "LName",
+      "Fname",
+      "Age",
+      "Sex",
+      "Major",
+      "Advisor",
+      "city_code",
+      "Student_description",
+      "Student_description_embedding",
+      "row_id"
+    ]
+  },
+  "phone_1": {
+    "chip_model": [
+      "Model_name",
+      "Launch_year",
+      "RAM_MiB",
+      "ROM_MiB",
+      "Slots",
+      "WiFi",
+      "Bluetooth",
+      "chip_model_description",
+      "chip_model_description_embedding",
+      "row_id"
+    ],
+    "phone": [
+      "Company_name",
+      "Hardware_Model_name",
+      "Accreditation_type",
+      "Accreditation_level",
+      "Date",
+      "chip_model",
+      "screen_mode",
+      "phone_description",
+      "phone_description_embedding",
+      "row_id"
+    ],
+    "screen_mode": [
+      "Graphics_mode",
+      "Char_cells",
+      "Pixels",
+      "Hardware_colours",
+      "used_kb",
+      "map",
+      "Type",
+      "row_id"
+    ]
+  },
+  "pilot_record": {
+    "pilot": [
+      "Pilot_ID",
+      "Pilot_name",
+      "Rank",
+      "Age",
+      "Nationality",
+      "Position",
+      "Join_Year",
+      "Team",
+      "pilot_description",
+      "pilot_description_embedding",
+      "row_id"
+    ],
+    "aircraft": [
+      "Aircraft_ID",
+      "Order_Year",
+      "Manufacturer",
+      "Model",
+      "Fleet_Series",
+      "Powertrain",
+      "Fuel_Propulsion",
+      "aircraft_description",
+      "aircraft_description_embedding",
+      "row_id"
+    ],
+    "pilot_record": [
+      "Record_ID",
+      "Pilot_ID",
+      "Aircraft_ID",
+      "Date",
+      "row_id"
+    ]
+  },
+  "product_catalog": {
+    "Catalog_Contents_Additional_Attributes": [
+      "catalog_entry_id",
+      "catalog_level_number",
+      "attribute_id",
+      "attribute_value",
+      "row_id"
+    ],
+    "Catalogs": [
+      "catalog_id",
+      "catalog_name",
+      "catalog_publisher",
+      "date_of_publication",
+      "date_of_latest_revision",
+      "Catalogs_description",
+      "Catalogs_description_embedding",
+      "row_id"
+    ],
+    "Attribute_Definitions": [
+      "attribute_id",
+      "attribute_name",
+      "attribute_data_type",
+      "row_id"
+    ],
+    "Catalog_Structure": [
+      "catalog_level_number",
+      "catalog_id",
+      "catalog_level_name",
+      "Catalog_Structure_description",
+      "Catalog_Structure_description_embedding",
+      "row_id"
+    ],
+    "Catalog_Contents": [
+      "catalog_entry_id",
+      "catalog_level_number",
+      "parent_entry_id",
+      "previous_entry_id",
+      "next_entry_id",
+      "catalog_entry_name",
+      "product_stock_number",
+      "price_in_dollars",
+      "price_in_euros",
+      "price_in_pounds",
+      "capacity",
+      "length",
+      "height",
+      "width",
+      "Catalog_Contents_description",
+      "Catalog_Contents_description_embedding",
+      "row_id"
+    ]
+  },
+  "products_gen_characteristics": {
+    "Product_Characteristics": [
+      "product_id",
+      "characteristic_id",
+      "product_characteristic_value",
+      "row_id"
+    ],
+    "Products": [
+      "product_id",
+      "color_code",
+      "product_category_code",
+      "product_name",
+      "typical_buying_price",
+      "typical_selling_price",
+      "product_description",
+      "other_product_details",
+      "product_description_embedding",
+      "other_product_details_embedding",
+      "row_id"
+    ],
+    "Ref_Colors": [
+      "color_code",
+      "color_description",
+      "color_description_embedding",
+      "row_id"
+    ],
+    "Ref_Product_Categories": [
+      "product_category_code",
+      "product_category_description",
+      "unit_of_measure",
+      "product_category_description_embedding",
+      "row_id"
+    ],
+    "Ref_Characteristic_Types": [
+      "characteristic_type_code",
+      "characteristic_type_description",
+      "characteristic_type_description_embedding",
+      "row_id"
+    ],
+    "Characteristics": [
+      "characteristic_id",
+      "characteristic_type_code",
+      "characteristic_data_type",
+      "characteristic_name",
+      "other_characteristic_details",
+      "Characteristics_description",
+      "other_characteristic_details_embedding",
+      "row_id"
+    ]
+  },
+  "program_share": {
+    "program": [
+      "Program_ID",
+      "Name",
+      "Origin",
+      "Launch",
+      "Owner",
+      "program_description",
+      "program_description_embedding",
+      "row_id"
+    ],
+    "broadcast": [
+      "Channel_ID",
+      "Program_ID",
+      "Time_of_day",
+      "row_id"
+    ],
+    "channel": [
+      "Channel_ID",
+      "Name",
+      "Owner",
+      "Share_in_percent",
+      "Rating_in_percent",
+      "channel_description",
+      "channel_description_embedding",
+      "row_id"
+    ],
+    "broadcast_share": [
+      "Channel_ID",
+      "Program_ID",
+      "Date",
+      "Share_in_percent",
+      "row_id"
+    ]
+  },
+  "protein_institute": {
+    "protein": [
+      "common_name",
+      "protein_name",
+      "divergence_from_human_lineage",
+      "accession_number",
+      "sequence_length",
+      "sequence_identity_to_human_protein",
+      "Institution_id",
+      "protein_description",
+      "protein_description_embedding",
+      "row_id"
+    ],
+    "building": [
+      "building_id",
+      "Name",
+      "Street_address",
+      "Years_as_tallest",
+      "Height_feet",
+      "Floors",
+      "building_description",
+      "building_description_embedding",
+      "row_id"
+    ],
+    "Institution": [
+      "Institution_id",
+      "Institution",
+      "Location",
+      "Founded",
+      "Type",
+      "Enrollment",
+      "Team",
+      "Primary_Conference",
+      "building_id",
+      "Institution_description",
+      "Institution_description_embedding",
+      "row_id"
+    ]
+  },
+  "race_track": {
+    "track": [
+      "Track_ID",
+      "Name",
+      "Location",
+      "Seating",
+      "Year_Opened",
+      "track_description",
+      "track_description_embedding",
+      "row_id"
+    ],
+    "race": [
+      "Race_ID",
+      "Name",
+      "Class",
+      "Date",
+      "Track_ID",
+      "race_description",
+      "race_description_embedding",
+      "row_id"
+    ]
+  },
+  "railway": {
+    "railway_manage": [
+      "Railway_ID",
+      "Manager_ID",
+      "From_Year",
+      "row_id"
+    ],
+    "manager": [
+      "Manager_ID",
+      "Name",
+      "Country",
+      "Working_year_starts",
+      "Age",
+      "Level",
+      "manager_description",
+      "manager_description_embedding",
+      "row_id"
+    ],
+    "railway": [
+      "Railway_ID",
+      "Railway",
+      "Builder",
+      "Built",
+      "Wheels",
+      "Location",
+      "ObjectNumber",
+      "railway_description",
+      "railway_description_embedding",
+      "row_id"
+    ],
+    "train": [
+      "Train_ID",
+      "Train_Num",
+      "Name",
+      "From",
+      "Arrival",
+      "Railway_ID",
+      "train_description",
+      "train_description_embedding",
+      "row_id"
+    ]
+  },
+  "real_estate_properties": {
+    "Properties": [
+      "property_id",
+      "property_type_code",
+      "date_on_market",
+      "date_sold",
+      "property_name",
+      "property_address",
+      "room_count",
+      "vendor_requested_price",
+      "buyer_offered_price",
+      "agreed_selling_price",
+      "apt_feature_1",
+      "apt_feature_2",
+      "apt_feature_3",
+      "fld_feature_1",
+      "fld_feature_2",
+      "fld_feature_3",
+      "hse_feature_1",
+      "hse_feature_2",
+      "hse_feature_3",
+      "oth_feature_1",
+      "oth_feature_2",
+      "oth_feature_3",
+      "shp_feature_1",
+      "shp_feature_2",
+      "shp_feature_3",
+      "other_property_details",
+      "Properties_description",
+      "row_id"
+    ],
+    "Ref_Property_Types": [
+      "property_type_code",
+      "property_type_description",
+      "property_type_description_embedding",
+      "row_id"
+    ],
+    "Ref_Feature_Types": [
+      "feature_type_code",
+      "feature_type_name",
+      "Ref_Feature_Types_description",
+      "Ref_Feature_Types_description_embedding",
+      "row_id"
+    ],
+    "Other_Property_Features": [
+      "property_id",
+      "feature_id",
+      "property_feature_description",
+      "row_id"
+    ],
+    "Other_Available_Features": [
+      "feature_id",
+      "feature_type_code",
+      "feature_name",
+      "feature_description",
+      "feature_description_embedding",
+      "row_id"
+    ]
+  },
+  "riding_club": {
+    "match_result": [
+      "Rank",
+      "Club_ID",
+      "Gold",
+      "Big_Silver",
+      "Small_Silver",
+      "Bronze",
+      "Points",
+      "row_id"
+    ],
+    "club": [
+      "Club_ID",
+      "Club_name",
+      "Region",
+      "Start_year",
+      "club_description",
+      "club_description_embedding",
+      "row_id"
+    ],
+    "coach": [
+      "Coach_ID",
+      "Coach_name",
+      "Gender",
+      "Club_ID",
+      "Rank",
+      "coach_description",
+      "coach_description_embedding",
+      "row_id"
+    ],
+    "player": [
+      "Player_ID",
+      "Sponsor_name",
+      "Player_name",
+      "Gender",
+      "Residence",
+      "Occupation",
+      "Votes",
+      "Rank",
+      "player_description",
+      "player_description_embedding",
+      "row_id"
+    ],
+    "player_coach": [
+      "Player_ID",
+      "Coach_ID",
+      "Starting_year",
+      "row_id"
+    ]
+  },
+  "roller_coaster": {
+    "country": [
+      "Country_ID",
+      "Name",
+      "Population",
+      "Area",
+      "Languages",
+      "country_description",
+      "country_description_embedding",
+      "row_id"
+    ],
+    "roller_coaster": [
+      "Roller_Coaster_ID",
+      "Name",
+      "Park",
+      "Country_ID",
+      "Length",
+      "Height",
+      "Speed",
+      "Opened",
+      "Status",
+      "roller_coaster_description",
+      "roller_coaster_description_embedding",
+      "row_id"
+    ]
+  },
+  "scholar": {
+    "writes": [
+      "paperId",
+      "authorId",
+      "row_id"
+    ],
+    "cite": [
+      "citingPaperId",
+      "citedPaperId",
+      "row_id"
+    ],
+    "paperKeyphrase": [
+      "paperId",
+      "keyphraseId",
+      "row_id"
+    ],
+    "author": [
+      "authorId",
+      "authorName",
+      "author_description",
+      "row_id"
+    ],
+    "paperDataset": [
+      "paperId",
+      "datasetId",
+      "row_id"
+    ],
+    "dataset": [
+      "datasetId",
+      "datasetName",
+      "dataset_description",
+      "row_id"
+    ],
+    "keyphrase": [
+      "keyphraseId",
+      "keyphraseName",
+      "row_id"
+    ],
+    "paper": [
+      "paperId",
+      "title",
+      "venueId",
+      "year",
+      "numCiting",
+      "numCitedBy",
+      "journalId",
+      "paper_description",
+      "title_embedding",
+      "row_id"
+    ],
+    "venue": [
+      "venueId",
+      "venueName",
+      "venue_description",
+      "row_id"
+    ],
+    "journal": [
+      "journalId",
+      "journalName",
+      "journal_description",
+      "row_id"
+    ]
+  },
+  "school_player": {
+    "player": [
+      "Player_ID",
+      "Player",
+      "Team",
+      "Age",
+      "Position",
+      "School_ID",
+      "player_description",
+      "row_id"
+    ],
+    "school_performance": [
+      "School_Id",
+      "School_Year",
+      "Class_A",
+      "Class_AA",
+      "row_id"
+    ],
+    "school_details": [
+      "School_ID",
+      "Nickname",
+      "Colors",
+      "League",
+      "Class",
+      "Division",
+      "school_details_description",
+      "row_id"
+    ],
+    "school": [
+      "School_ID",
+      "School",
+      "Location",
+      "Enrollment",
+      "Founded",
+      "Denomination",
+      "Boys_or_Girls",
+      "Day_or_Boarding",
+      "Year_Entered_Competition",
+      "School_Colors",
+      "school_description",
+      "row_id"
+    ]
+  },
+  "ship_mission": {
+    "ship": [
+      "Ship_ID",
+      "Name",
+      "Type",
+      "Nationality",
+      "Tonnage",
+      "ship_description",
+      "ship_description_embedding",
+      "row_id"
+    ],
+    "mission": [
+      "Mission_ID",
+      "Ship_ID",
+      "Code",
+      "Launched_Year",
+      "Location",
+      "Speed_knots",
+      "Fate",
+      "mission_description",
+      "mission_description_embedding",
+      "row_id"
+    ]
+  },
+  "soccer_1": {
+    "Team_Attributes": [
+      "id",
+      "team_fifa_api_id",
+      "team_api_id",
+      "date",
+      "buildUpPlaySpeed",
+      "buildUpPlaySpeedClass",
+      "buildUpPlayDribbling",
+      "buildUpPlayDribblingClass",
+      "buildUpPlayPassing",
+      "buildUpPlayPassingClass",
+      "buildUpPlayPositioningClass",
+      "chanceCreationPassing",
+      "chanceCreationPassingClass",
+      "chanceCreationCrossing",
+      "chanceCreationCrossingClass",
+      "chanceCreationShooting",
+      "chanceCreationShootingClass",
+      "chanceCreationPositioningClass",
+      "defencePressure",
+      "defencePressureClass",
+      "defenceAggression",
+      "defenceAggressionClass",
+      "defenceTeamWidth",
+      "defenceTeamWidthClass",
+      "defenceDefenderLineClass",
+      "Team_Attributes_description",
+      "row_id"
+    ],
+    "Team": [
+      "id",
+      "team_api_id",
+      "team_fifa_api_id",
+      "team_long_name",
+      "team_short_name",
+      "Team_description",
+      "Team_description_embedding",
+      "row_id"
+    ],
+    "Country": [
+      "id",
+      "name",
+      "Country_description",
+      "Country_description_embedding",
+      "row_id"
+    ],
+    "Player_Attributes": [
+      "id",
+      "player_fifa_api_id",
+      "player_api_id",
+      "date",
+      "overall_rating",
+      "potential",
+      "preferred_foot",
+      "attacking_work_rate",
+      "defensive_work_rate",
+      "crossing",
+      "finishing",
+      "heading_accuracy",
+      "short_passing",
+      "volleys",
+      "dribbling",
+      "curve",
+      "free_kick_accuracy",
+      "long_passing",
+      "ball_control",
+      "acceleration",
+      "sprint_speed",
+      "agility",
+      "reactions",
+      "balance",
+      "shot_power",
+      "jumping",
+      "stamina",
+      "strength",
+      "long_shots",
+      "aggression",
+      "interceptions",
+      "positioning",
+      "vision",
+      "penalties",
+      "marking",
+      "standing_tackle",
+      "sliding_tackle",
+      "gk_diving",
+      "gk_handling",
+      "gk_kicking",
+      "gk_positioning",
+      "gk_reflexes",
+      "Player_Attributes_description",
+      "row_id"
+    ],
+    "League": [
+      "id",
+      "country_id",
+      "name",
+      "League_description",
+      "League_description_embedding",
+      "row_id"
+    ],
+    "Player": [
+      "id",
+      "player_api_id",
+      "player_name",
+      "player_fifa_api_id",
+      "birthday",
+      "height",
+      "weight",
+      "Player_description",
+      "Player_description_embedding",
+      "row_id"
+    ]
+  },
+  "soccer_2": {
+    "Player": [
+      "pID",
+      "pName",
+      "yCard",
+      "HS",
+      "Player_description",
+      "Player_description_embedding",
+      "row_id"
+    ],
+    "Tryout": [
+      "pID",
+      "cName",
+      "pPos",
+      "decision",
+      "row_id"
+    ],
+    "College": [
+      "cName",
+      "state",
+      "enr",
+      "College_description",
+      "College_description_embedding",
+      "row_id"
+    ]
+  },
+  "solvency_ii": {
+    "Assets_in_Events": [
+      "Asset_ID",
+      "Event_ID",
+      "row_id"
+    ],
+    "Agreements": [
+      "Document_ID",
+      "Event_ID",
+      "row_id"
+    ],
+    "Products_in_Events": [
+      "Product_in_Event_ID",
+      "Event_ID",
+      "Product_ID",
+      "row_id"
+    ],
+    "Events": [
+      "Event_ID",
+      "Address_ID",
+      "Channel_ID",
+      "Event_Type_Code",
+      "Finance_ID",
+      "Location_ID",
+      "Events_description",
+      "Events_description_embedding",
+      "row_id"
+    ],
+    "Channels": [
+      "Channel_ID",
+      "Other_Details",
+      "row_id"
+    ],
+    "Assets": [
+      "Asset_ID",
+      "Other_Details",
+      "Assets_description",
+      "Assets_description_embedding",
+      "row_id"
+    ],
+    "Finances": [
+      "Finance_ID",
+      "Other_Details",
+      "row_id"
+    ],
+    "Locations": [
+      "Location_ID",
+      "Other_Details",
+      "Locations_description",
+      "Locations_description_embedding",
+      "row_id"
+    ],
+    "Parties": [
+      "Party_ID",
+      "Party_Details",
+      "Parties_description",
+      "Parties_description_embedding",
+      "row_id"
+    ],
+    "Parties_in_Events": [
+      "Party_ID",
+      "Event_ID",
+      "Role_Code",
+      "row_id"
+    ],
+    "Products": [
+      "Product_ID",
+      "Product_Type_Code",
+      "Product_Name",
+      "Product_Price",
+      "Products_description",
+      "Products_description_embedding",
+      "row_id"
+    ],
+    "Addresses": [
+      "Address_ID",
+      "address_details",
+      "row_id"
+    ]
+  },
+  "sports_competition": {
+    "competition_result": [
+      "Competition_ID",
+      "Club_ID_1",
+      "Club_ID_2",
+      "Score",
+      "row_id"
+    ],
+    "club": [
+      "Club_ID",
+      "name",
+      "Region",
+      "Start_year",
+      "club_description",
+      "club_description_embedding",
+      "row_id"
+    ],
+    "club_rank": [
+      "Rank",
+      "Club_ID",
+      "Gold",
+      "Silver",
+      "Bronze",
+      "Total",
+      "row_id"
+    ],
+    "player": [
+      "Player_ID",
+      "name",
+      "Position",
+      "Club_ID",
+      "Apps",
+      "Tries",
+      "Goals",
+      "Points",
+      "player_description",
+      "player_description_embedding",
+      "row_id"
+    ],
+    "competition": [
+      "Competition_ID",
+      "Year",
+      "Competition_type",
+      "Country",
+      "competition_description",
+      "competition_description_embedding",
+      "row_id"
+    ]
+  },
+  "store_1": {
+    "playlist_tracks": [
+      "playlist_id",
+      "track_id",
+      "row_id"
+    ],
+    "invoice_lines": [
+      "id",
+      "invoice_id",
+      "track_id",
+      "unit_price",
+      "quantity",
+      "row_id"
+    ],
+    "tracks": [
+      "id",
+      "name",
+      "album_id",
+      "media_type_id",
+      "genre_id",
+      "composer",
+      "milliseconds",
+      "bytes",
+      "unit_price",
+      "tracks_description",
+      "tracks_description_embedding",
+      "row_id"
+    ],
+    "artists": [
+      "id",
+      "name",
+      "artists_description",
+      "artists_description_embedding",
+      "row_id"
+    ],
+    "media_types": [
+      "id",
+      "name",
+      "media_types_description",
+      "media_types_description_embedding",
+      "row_id"
+    ],
+    "genres": [
+      "id",
+      "name",
+      "genres_description",
+      "genres_description_embedding",
+      "row_id"
+    ],
+    "albums": [
+      "id",
+      "title",
+      "artist_id",
+      "albums_description",
+      "albums_description_embedding",
+      "row_id"
+    ],
+    "employees": [
+      "id",
+      "last_name",
+      "first_name",
+      "title",
+      "reports_to",
+      "birth_date",
+      "hire_date",
+      "address",
+      "city",
+      "state",
+      "country",
+      "postal_code",
+      "phone",
+      "fax",
+      "email",
+      "employees_description",
+      "row_id"
+    ],
+    "playlists": [
+      "id",
+      "name",
+      "playlists_description",
+      "playlists_description_embedding",
+      "row_id"
+    ],
+    "customers": [
+      "id",
+      "first_name",
+      "last_name",
+      "company",
+      "address",
+      "city",
+      "state",
+      "country",
+      "postal_code",
+      "phone",
+      "fax",
+      "email",
+      "support_rep_id",
+      "customers_description",
+      "customers_description_embedding",
+      "row_id"
+    ],
+    "invoices": [
+      "id",
+      "customer_id",
+      "invoice_date",
+      "billing_address",
+      "billing_city",
+      "billing_state",
+      "billing_country",
+      "billing_postal_code",
+      "total",
+      "invoices_description",
+      "row_id"
+    ]
+  },
+  "store_product": {
+    "store_district": [
+      "Store_ID",
+      "District_ID",
+      "row_id"
+    ],
+    "district": [
+      "District_ID",
+      "District_name",
+      "Headquartered_City",
+      "City_Population",
+      "City_Area",
+      "district_description",
+      "district_description_embedding",
+      "row_id"
+    ],
+    "store": [
+      "Store_ID",
+      "Store_Name",
+      "Type",
+      "Area_size",
+      "Number_of_product_category",
+      "Ranking",
+      "store_description",
+      "store_description_embedding",
+      "row_id"
+    ],
+    "store_product": [
+      "Store_ID",
+      "Product_ID",
+      "row_id"
+    ],
+    "product": [
+      "product_id",
+      "product",
+      "dimensions",
+      "dpi",
+      "pages_per_minute_color",
+      "max_page_size",
+      "interface",
+      "product_description",
+      "product_description_embedding",
+      "row_id"
+    ]
+  },
+  "student_1": {
+    "list": [
+      "LastName",
+      "FirstName",
+      "Grade",
+      "Classroom",
+      "list_description",
+      "list_description_embedding",
+      "row_id"
+    ],
+    "teachers": [
+      "LastName",
+      "FirstName",
+      "Classroom",
+      "teachers_description",
+      "teachers_description_embedding",
+      "row_id"
+    ]
+  },
+  "student_transcripts_tracking": {
+    "Students": [
+      "student_id",
+      "current_address_id",
+      "permanent_address_id",
+      "first_name",
+      "middle_name",
+      "last_name",
+      "cell_mobile_number",
+      "email_address",
+      "ssn",
+      "date_first_registered",
+      "date_left",
+      "other_student_details",
+      "Students_description",
+      "other_student_details_embedding",
+      "row_id"
+    ],
+    "Student_Enrolment": [
+      "student_enrolment_id",
+      "degree_program_id",
+      "semester_id",
+      "student_id",
+      "other_details",
+      "other_details_embedding",
+      "row_id"
+    ],
+    "Transcripts": [
+      "transcript_id",
+      "transcript_date",
+      "other_details",
+      "other_details_embedding",
+      "row_id"
+    ],
+    "Student_Enrolment_Courses": [
+      "student_course_id",
+      "course_id",
+      "student_enrolment_id",
+      "row_id"
+    ],
+    "Addresses": [
+      "address_id",
+      "line_1",
+      "line_2",
+      "line_3",
+      "city",
+      "zip_postcode",
+      "state_province_county",
+      "country",
+      "other_address_details",
+      "Addresses_description",
+      "other_address_details_embedding",
+      "row_id"
+    ],
+    "Courses": [
+      "course_id",
+      "course_name",
+      "course_description",
+      "other_details",
+      "course_description_embedding",
+      "row_id"
+    ],
+    "Degree_Programs": [
+      "degree_program_id",
+      "department_id",
+      "degree_summary_name",
+      "degree_summary_description",
+      "other_details",
+      "degree_summary_description_embedding",
+      "row_id"
+    ],
+    "Transcript_Contents": [
+      "student_course_id",
+      "transcript_id",
+      "row_id"
+    ],
+    "Sections": [
+      "section_id",
+      "course_id",
+      "section_name",
+      "section_description",
+      "other_details",
+      "section_description_embedding",
+      "row_id"
+    ],
+    "Semesters": [
+      "semester_id",
+      "semester_name",
+      "semester_description",
+      "other_details",
+      "semester_description_embedding",
+      "row_id"
+    ],
+    "Departments": [
+      "department_id",
+      "department_name",
+      "department_description",
+      "other_details",
+      "department_description_embedding",
+      "row_id"
+    ]
+  },
+  "swimming": {
+    "event": [
+      "ID",
+      "Name",
+      "Stadium_ID",
+      "Year",
+      "event_description",
+      "event_description_embedding",
+      "row_id"
+    ],
+    "record": [
+      "ID",
+      "Result",
+      "Swimmer_ID",
+      "Event_ID",
+      "row_id"
+    ],
+    "swimmer": [
+      "ID",
+      "name",
+      "Nationality",
+      "meter_100",
+      "meter_200",
+      "meter_300",
+      "meter_400",
+      "meter_500",
+      "meter_600",
+      "meter_700",
+      "Time",
+      "swimmer_description",
+      "swimmer_description_embedding",
+      "row_id"
+    ],
+    "stadium": [
+      "ID",
+      "name",
+      "Capacity",
+      "City",
+      "Country",
+      "Opening_year",
+      "stadium_description",
+      "stadium_description_embedding",
+      "row_id"
+    ]
+  },
+  "theme_gallery": {
+    "exhibition_record": [
+      "Exhibition_ID",
+      "Date",
+      "Attendance",
+      "row_id"
+    ],
+    "exhibition": [
+      "Exhibition_ID",
+      "Year",
+      "Theme",
+      "Artist_ID",
+      "Ticket_Price",
+      "exhibition_description",
+      "row_id"
+    ],
+    "artist": [
+      "Artist_ID",
+      "Name",
+      "Country",
+      "Year_Join",
+      "Age",
+      "artist_description",
+      "row_id"
+    ]
+  },
+  "tracking_grants_for_research": {
+    "Projects": [
+      "project_id",
+      "organisation_id",
+      "project_details",
+      "Projects_description",
+      "project_details_embedding",
+      "row_id"
+    ],
+    "Project_Staff": [
+      "staff_id",
+      "project_id",
+      "role_code",
+      "date_from",
+      "date_to",
+      "other_details",
+      "row_id"
+    ],
+    "Project_Outcomes": [
+      "project_id",
+      "outcome_code",
+      "outcome_details",
+      "Project_Outcomes_description",
+      "outcome_details_embedding",
+      "row_id"
+    ],
+    "Research_Staff": [
+      "staff_id",
+      "employer_organisation_id",
+      "staff_details",
+      "Research_Staff_description",
+      "staff_details_embedding",
+      "row_id"
+    ],
+    "Staff_Roles": [
+      "role_code",
+      "role_description",
+      "role_description_embedding",
+      "row_id"
+    ],
+    "Organisations": [
+      "organisation_id",
+      "organisation_type",
+      "organisation_details",
+      "Organisations_description",
+      "organisation_details_embedding",
+      "row_id"
+    ],
+    "Organisation_Types": [
+      "organisation_type",
+      "organisation_type_description",
+      "organisation_type_description_embedding",
+      "row_id"
+    ],
+    "Tasks": [
+      "task_id",
+      "project_id",
+      "task_details",
+      "eg_Agree_Objectives",
+      "Tasks_description",
+      "task_details_embedding",
+      "row_id"
+    ],
+    "Document_Types": [
+      "document_type_code",
+      "document_description",
+      "document_description_embedding",
+      "row_id"
+    ],
+    "Research_Outcomes": [
+      "outcome_code",
+      "outcome_description",
+      "outcome_description_embedding",
+      "row_id"
+    ],
+    "Documents": [
+      "document_id",
+      "document_type_code",
+      "grant_id",
+      "sent_date",
+      "response_received_date",
+      "other_details",
+      "Documents_description",
+      "other_details_embedding",
+      "row_id"
+    ],
+    "Grants": [
+      "grant_id",
+      "organisation_id",
+      "grant_amount",
+      "grant_start_date",
+      "grant_end_date",
+      "other_details",
+      "Grants_description",
+      "other_details_embedding",
+      "row_id"
+    ]
+  },
+  "tracking_orders": {
+    "Shipment_Items": [
+      "shipment_id",
+      "order_item_id",
+      "row_id"
+    ],
+    "Shipments": [
+      "shipment_id",
+      "order_id",
+      "invoice_number",
+      "shipment_tracking_number",
+      "shipment_date",
+      "other_shipment_details",
+      "row_id"
+    ],
+    "Order_Items": [
+      "order_item_id",
+      "product_id",
+      "order_id",
+      "order_item_status",
+      "order_item_details",
+      "row_id"
+    ],
+    "Products": [
+      "product_id",
+      "product_name",
+      "product_details",
+      "Products_description",
+      "row_id"
+    ],
+    "Orders": [
+      "order_id",
+      "customer_id",
+      "order_status",
+      "date_order_placed",
+      "order_details",
+      "row_id"
+    ],
+    "Invoices": [
+      "invoice_number",
+      "invoice_date",
+      "invoice_details",
+      "Invoices_description",
+      "row_id"
+    ],
+    "Customers": [
+      "customer_id",
+      "customer_name",
+      "customer_details",
+      "Customers_description",
+      "row_id"
+    ]
+  },
+  "tracking_software_problems": {
+    "Problems": [
+      "problem_id",
+      "product_id",
+      "closure_authorised_by_staff_id",
+      "reported_by_staff_id",
+      "date_problem_reported",
+      "date_problem_closed",
+      "problem_description",
+      "other_problem_details",
+      "row_id"
+    ],
+    "Staff": [
+      "staff_id",
+      "staff_first_name",
+      "staff_last_name",
+      "other_staff_details",
+      "Staff_description",
+      "Staff_description_embedding",
+      "row_id"
+    ],
+    "Problem_Status_Codes": [
+      "problem_status_code",
+      "problem_status_description",
+      "row_id"
+    ],
+    "Product": [
+      "product_id",
+      "product_name",
+      "product_details",
+      "Product_description",
+      "Product_description_embedding",
+      "row_id"
+    ],
+    "Problem_Category_Codes": [
+      "problem_category_code",
+      "problem_category_description",
+      "problem_category_description_embedding",
+      "row_id"
+    ],
+    "Problem_Log": [
+      "problem_log_id",
+      "assigned_to_staff_id",
+      "problem_id",
+      "problem_category_code",
+      "problem_status_code",
+      "log_entry_date",
+      "log_entry_description",
+      "log_entry_fix",
+      "other_log_details",
+      "row_id"
+    ]
+  },
+  "university_basketball": {
+    "university": [
+      "School_ID",
+      "School",
+      "Location",
+      "Founded",
+      "Affiliation",
+      "Enrollment",
+      "Nickname",
+      "Primary_conference",
+      "university_description",
+      "row_id"
+    ],
+    "basketball_match": [
+      "Team_ID",
+      "School_ID",
+      "Team_Name",
+      "ACC_Regular_Season",
+      "ACC_Percent",
+      "ACC_Home",
+      "ACC_Road",
+      "All_Games",
+      "All_Games_Percent",
+      "All_Home",
+      "All_Road",
+      "All_Neutral",
+      "basketball_match_description",
+      "row_id"
+    ]
+  },
+  "voter_2": {
+    "Voting_record": [
+      "StuID",
+      "Registration_Date",
+      "Election_Cycle",
+      "President_Vote",
+      "Vice_President_Vote",
+      "Secretary_Vote",
+      "Treasurer_Vote",
+      "Class_President_Vote",
+      "Class_Senator_Vote",
+      "row_id"
+    ],
+    "Student": [
+      "StuID",
+      "LName",
+      "Fname",
+      "Age",
+      "Sex",
+      "Major",
+      "Advisor",
+      "city_code",
+      "Student_description",
+      "Student_description_embedding",
+      "row_id"
+    ]
+  },
+  "wine_1": {
+    "grapes": [
+      "ID",
+      "Grape",
+      "Color",
+      "grapes_description",
+      "grapes_description_embedding",
+      "row_id"
+    ],
+    "appellations": [
+      "No",
+      "Appelation",
+      "County",
+      "State",
+      "Area",
+      "isAVA",
+      "appellations_description",
+      "appellations_description_embedding",
+      "row_id"
+    ],
+    "wine": [
+      "No",
+      "Grape",
+      "Winery",
+      "Appelation",
+      "State",
+      "Name",
+      "Year",
+      "Price",
+      "Score",
+      "Cases",
+      "Drink",
+      "wine_description",
+      "wine_description_embedding",
+      "row_id"
+    ]
+  },
+  "yelp": {
+    "tip": [
+      "tip_id",
+      "business_id",
+      "text",
+      "user_id",
+      "likes",
+      "year",
+      "month",
+      "text_embedding",
+      "row_id"
+    ],
+    "business": [
+      "bid",
+      "business_id",
+      "name",
+      "full_address",
+      "city",
+      "latitude",
+      "longitude",
+      "review_count",
+      "is_open",
+      "rating",
+      "state",
+      "business_description",
+      "row_id"
+    ],
+    "category": [
+      "id",
+      "business_id",
+      "category_name",
+      "category_description",
+      "row_id"
+    ],
+    "user": [
+      "uid",
+      "user_id",
+      "name",
+      "user_description",
+      "row_id"
+    ],
+    "review": [
+      "rid",
+      "business_id",
+      "user_id",
+      "rating",
+      "text",
+      "year",
+      "month",
+      "text_embedding",
+      "row_id"
+    ],
+    "checkin": [
+      "cid",
+      "business_id",
+      "count",
+      "day",
+      "row_id"
+    ],
+    "neighbourhood": [
+      "id",
+      "business_id",
+      "neighbourhood_name",
+      "neighbourhood_description",
+      "row_id"
+    ]
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "protocol_version": "uniplan-arxiv-reproduction-v1",
+  "evaluation_mode": "frozen",
+  "query_features": {
+    "local_statistics": true
+  },
+  "metadata": {
+    "path": "@ASSETS@/arxiv/experiment-runtime-v1/metadata.sqlite",
+    "snapshot_dir": "@ASSETS@/arxiv/experiment-runtime-v1",
+    "extra_path": "@ASSETS@/arxiv/experiment-runtime-v1/extra.sqlite"
+  },
+  "assets": {
+    "faiss_dir": "@ASSETS@/arxiv/runtime/faiss"
+  },
+  "require_paths": [
+    "PRE",
+    "POST",
+    "FAISS",
+    "ACORN"
+  ],
+  "seed": 42,
+  "snapshot_id": "vectorsqlbench-arxiv-3093a4bd2527d29b6e59091b7285b77374200694-cosine",
+  "distance_metric": "cosine",
+  "embedding": {
+    "model": "all-MiniLM-L6-v2",
+    "dimension": 384,
+    "normalized": true,
+    "timeout_seconds": 60,
+    "url": "http://127.0.0.1:8365/embed",
+    "trust_env": false
+  },
+  "database": {
+    "config_path": "@DATABASE@",
+    "name": "arxiv",
+    "layout": "arxiv_public_migrated",
+    "required_embedding_columns": [
+      "abstract_embedding"
+    ],
+    "post_index_names": {
+      "abstract_embedding": "arxiv_rule_abstract_hnsw_cosine"
+    }
+  },
+  "faiss_assets": {
+    "abstract_embedding": {
+      "index": "@ASSETS@/arxiv/indexes/faiss/arxiv-articles-abstract-embedding-27d48758ef/index.faiss",
+      "article_ids": "@ASSETS@/arxiv/runtime/abstract_embedding/article_ids.npy",
+      "id_mapping_receipt": "@ASSETS@/arxiv/runtime/abstract_embedding/id-mapping.json"
+    }
+  },
+  "acorn": {
+    "url": "http://127.0.0.1:17343",
+    "prefer_grpc": false,
+    "grpc_port": 17344,
+    "minimum_qdrant_version": "1.16.0",
+    "indexing_threshold_kb": 1,
+    "target_segments": 12,
+    "max_indexing_threads": 2,
+    "max_optimization_threads": 3,
+    "collections": {
+      "abstract_embedding": "arxiv_arxiv_articles_abstract_embedding_27d48758ef_cosine_acorn_v1"
+    },
+    "max_selectivity": 1.0,
+    "exact_fallback": false,
+    "point_ids_are_article_ids": false,
+    "payload_schema": {
+      "update_date": "_update_date_utc"
+    },
+    "identity_receipts": {
+      "abstract_embedding": "@ASSETS@/arxiv/indexes/acorn-progress/arxiv-articles-abstract-embedding-27d48758ef.json"
+    }
+  },
+  "actions": {
+    "0": {
+      "path_id": "PRE",
+      "params": {
+        "index_mode": "no_index",
+        "join_strategy": "all"
+      }
+    },
+    "1": {
+      "path_id": "POST",
+      "params": {
+        "ef_search": 100,
+        "max_scan_tuples": 100000
+      }
+    },
+    "2": {
+      "path_id": "FAISS",
+      "params": {
+        "ef_search": 100,
+        "candidate_multiplier": 4.0
+      }
+    },
+    "3": {
+      "path_id": "ACORN",
+      "params": {
+        "hnsw_ef": 100
+      }
+    }
+  },
+  "parameter_spaces": {
+    "PRE": {
+      "index_mode": [
+        "index",
+        "no_index"
+      ],
+      "index_strategy": [
+        "btree",
+        "hash",
+        "bitmap",
+        "optimizer"
+      ],
+      "join_strategy": [
+        "all",
+        "hash",
+        "merge",
+        "nested_loop"
+      ]
+    },
+    "POST": {
+      "ef_search": {
+        "type": "integer_interval",
+        "min": 40,
+        "max": 1000
+      },
+      "max_scan_tuples": {
+        "type": "integer_interval",
+        "min": 20000,
+        "max": 3000000
+      }
+    },
+    "FAISS": {
+      "ef_search": {
+        "type": "integer_interval",
+        "min": 40,
+        "max": 32000
+      },
+      "candidate_multiplier": {
+        "type": "real_interval",
+        "min": 1.0,
+        "max": 10000.0
+      }
+    },
+    "ACORN": {
+      "hnsw_ef": {
+        "type": "integer_interval",
+        "min": 40,
+        "max": 32000
+      }
+    }
+  },
+  "backend_fixed_settings": {
+    "POST": {
+      "iterative_scan": "strict_order",
+      "scan_mem_multiplier": 2.0,
+      "enable_seqscan": false
+    },
+    "ACORN": {
+      "enable": true,
+      "max_selectivity": 1.0,
+      "exact": false
+    }
+  },
+  "measurement": {
+    "hard_e2e_deadline": true,
+    "warmup_runs": 1,
+    "latency_runs": 5,
+    "recall_runs": 1,
+    "statement_timeout_ms": 600000,
+    "shared_translation_time": true,
+    "shared_embedding_time": false,
+    "latency_definition": "request_start_to_article_ids_ready",
+    "include_embedding": true,
+    "include_policy_inference": true,
+    "preload_corpus_statistics": true
+  },
+  "quality": {
+    "protocol": "small-k-v1",
+    "allowed_k": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "required_hits": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 8
+    }
+  },
+  "reward": {
+    "recall_threshold": 0.8,
+    "latency_cap_ms": 5000,
+    "deadline_inclusive": true
+  },
+  "runtime": {
+    "cpu_threads": 4,
+    "inference_threads": 1,
+    "pre_access_enabled": true,
+    "unified_resources": true,
+    "detailed_timing": true,
+    "baseline_shared_pool": true,
+    "lightweight_execution": true,
+    "main_fast_inference": true,
+    "main_training_gpus": []
+  },
+  "initial_design": {
+    "method": "latin_hypercube",
+    "points_per_numeric_path": 8,
+    "seed": 42
+  },
+  "catboost": {
+    "ensemble_size": 8,
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "uncertainty_floor": 1e-06,
+    "seed": 42,
+    "task_type": "CPU"
+  },
+  "max_ucb": {
+    "beta_quality": 1.0,
+    "beta_latency": 1.0,
+    "kappa_quality": 1.0,
+    "kappa_latency": 1.0,
+    "quality_probability_min": 0.9,
+    "gamma": 1.0,
+    "candidates_per_numeric_path": 128,
+    "seed": 42,
+    "fallback_quality_tolerance": 0.01
+  },
+  "online_learning": {
+    "refit_every": 8
+  },
+  "jev": {
+    "enabled": false,
+    "base_url": "https://api.typesafe.ai",
+    "model": "jev-1.13.0",
+    "allow_unpinned_model": false,
+    "prompt_version": "jev-path-routing-v3-compact",
+    "timeout_seconds": 3.0,
+    "max_retries": 0,
+    "path_prior_weight": 0.25,
+    "failure_policy": "fail_closed",
+    "replay_path": null,
+    "record_path": null,
+    "charge_replay_latency": true
+  },
+  "main_method_id": "cash_maxucb",
+  "collection": {
+    "include_default_actions": true
+  },
+  "training_latency_cap_ms": 5000,
+  "preserve_baseline_prediction_engine": true,
+  "optional_acceleration": {
+    "enabled": false
+  },
+  "acceleration_calibration": {
+    "repeats": 3,
+    "min_relative_gain": 0.05,
+    "min_train_groups": 2,
+    "min_dev_groups": 1,
+    "candidate_paths": [
+      "PG_NATIVE_SQL",
+      "PRE",
+      "FAISS"
+    ]
+  },
+  "budget_faiss": {
+    "enabled": false
+  },
+  "comparison_scope": "main-only ordered FAISS/PG routing; baseline algorithms unchanged",
+  "main_training": {
+    "enabled": true
+  },
+  "main_search": {
+    "enabled": true,
+    "initial_candidates": 32,
+    "quality_margin": 0.03
+  },
+  "main_execution": {
+    "adaptive_fill": true
+  },
+  "main_lightweight_selector": {
+    "enabled": false,
+    "artifact": null,
+    "collect_facts": true,
+    "deduplicate_pre_joins": true,
+    "native_pg_early": false,
+    "native_pg_fallback": false
+  },
+  "main_selector_calibration": {
+    "enabled": true,
+    "artifact": "@OUTPUT@/main-selector.json",
+    "min_train_groups": 12,
+    "min_dev_groups": 12,
+    "strategy": "faiss_then_pg"
+  },
+  "pg_execution_contract": "relational-pg-pre-post-v1"
+}

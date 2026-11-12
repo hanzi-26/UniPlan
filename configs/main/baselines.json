@@ -1,0 +1,90 @@
+{
+  "protocol_version": "uniplan-main-baselines-v1",
+  "baselines": [
+    {
+      "id": "maxucb_bo",
+      "name": "maxucb-bo",
+      "config": {
+        "beta": 1.0,
+        "bo_kappa": 1.0,
+        "candidates_per_numeric_path": 128,
+        "max_gp_points_per_path": 512,
+        "seed": 42
+      }
+    },
+    {
+      "id": "mlp",
+      "name": "mlp",
+      "config": {
+        "hidden_layer_sizes": [
+          64,
+          32
+        ],
+        "max_iter": 500,
+        "candidates_per_numeric_path": 128,
+        "seed": 42
+      }
+    },
+    {
+      "id": "lightgbm",
+      "name": "lightgbm",
+      "config": {
+        "n_estimators": 300,
+        "learning_rate": 0.05,
+        "num_leaves": 31,
+        "candidates_per_numeric_path": 128,
+        "seed": 42
+      }
+    },
+    {
+      "id": "pure_pre",
+      "name": "pure-pre",
+      "config": {}
+    },
+    {
+      "id": "pure_post",
+      "name": "pure-post",
+      "config": {}
+    },
+    {
+      "id": "pure_faiss",
+      "name": "pure-faiss",
+      "config": {}
+    },
+    {
+      "id": "pure_acorn",
+      "name": "pure-acorn",
+      "config": {}
+    },
+    {
+      "id": "dynamic_ann",
+      "name": "dynamic-ann",
+      "config": {
+        "coefficient_mode": "calibrated",
+        "density_mode": "measured",
+        "seed": 42
+      }
+    },
+    {
+      "id": "pg_native",
+      "name": "native-pg",
+      "config": {},
+      "runner": "external_native_pg"
+    },
+    {
+      "id": "jev_router",
+      "name": "jev-router",
+      "config": {
+        "model": "jev-1.13.0",
+        "base_url": "https://api.typesafe.ai",
+        "allow_unpinned_model": false,
+        "prompt_version": "jev-path-routing-v3-compact",
+        "timeout_seconds": 3.0,
+        "max_retries": 0,
+        "failure_policy": "fail_closed",
+        "candidates_per_numeric_path": 128,
+        "seed": 42
+      }
+    }
+  ]
+}

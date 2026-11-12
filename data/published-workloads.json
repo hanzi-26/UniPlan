@@ -1,0 +1,82 @@
+{
+  "description": "Query workloads and train/dev/test splits for the reported four-dataset version. Vector corpora, databases, indexes, models, prepared ground truth, and experiment outputs are external assets.",
+  "datasets": {
+    "arxiv": {
+      "queries": "data/arxiv/queries.jsonl",
+      "splits": "data/arxiv/splits.json",
+      "source_query_count": 950,
+      "split_counts": {
+        "train": 565,
+        "dev": 185,
+        "test": 200
+      },
+      "split_query_count": 950,
+      "unassigned_query_ids": []
+    },
+    "spider": {
+      "queries": "data/spider/curated300-v1/queries.jsonl",
+      "splits": "data/spider/curated300-v1/splits.json",
+      "source_query_count": 300,
+      "split_counts": {
+        "train": 180,
+        "dev": 60,
+        "test": 60
+      },
+      "split_query_count": 300,
+      "unassigned_query_ids": [],
+      "source_sql": "data/spider/curated300-v1/candidate_sql.json"
+    },
+    "wiki": {
+      "queries": "data/wiki/clip/queries.jsonl",
+      "splits": "data/wiki/splits.json",
+      "source_query_count": 300,
+      "split_counts": {
+        "train": 176,
+        "dev": 60,
+        "test": 60
+      },
+      "split_query_count": 296,
+      "unassigned_query_ids": [
+        "W070",
+        "W145",
+        "W220",
+        "W295"
+      ],
+      "source_sql": "data/wiki/clip/candidate_sql_cosine.json",
+      "alternate_encoder_queries": "data/wiki/queries.jsonl"
+    },
+    "yfcc": {
+      "queries": "data/YFCC1920/runtime-20261030/queries.json",
+      "splits": "data/YFCC1920/runtime-20261030/splits.json",
+      "source_query_count": 240,
+      "split_counts": {
+        "train": 80,
+        "dev": 60,
+        "test": 100
+      },
+      "split_query_count": 240,
+      "unassigned_query_ids": [],
+      "annotated_queries": "data/YFCC1920/runtime-20261030/all_queries_240.json"
+    }
+  },
+  "sha256": {
+    "data/queries.jsonl": "cff469ee9e26e1f6d767048251d8ab7bd2356b6e004d983aecf48424e949dc16",
+    "data/splits.json": "93cfcff54422624026e84b126cf1f0e9bd519a8d11adc61d15d11ccea7817f56",
+    "data/arxiv/queries.jsonl": "cff469ee9e26e1f6d767048251d8ab7bd2356b6e004d983aecf48424e949dc16",
+    "data/arxiv/splits.json": "93cfcff54422624026e84b126cf1f0e9bd519a8d11adc61d15d11ccea7817f56",
+    "data/wiki/candidate_sql_cosine.json": "3d95c6f4e4aaf8ab994b00f8ee31ec4e9bf606c0d7484c5c846f5562afd2aba3",
+    "data/wiki/queries.jsonl": "a5c7a7e07bb4ba0c11dd7456b759ad0135be8f8e51d7f4e63d8f5ac54f802128",
+    "data/wiki/splits.json": "b9a39b91a451bf6a47997155f15ab5a4923682095dfb85ef456beeff105b2817",
+    "data/wiki/splits.stratified-v4.json": "b9a39b91a451bf6a47997155f15ab5a4923682095dfb85ef456beeff105b2817",
+    "data/wiki/clip/candidate_sql_cosine.json": "130faf5e706e0f2d0fc989c51a855dc40863610cf169f5180a3a2eebf296638f",
+    "data/wiki/clip/queries.jsonl": "339a880f3e366ff1ba03ec99b75a5e3c00c65ec97222cf9a51a03a412596b1cb",
+    "data/spider/database-columns-v1.json": "1d24badecf3e68c7794a1b037cd254bb13a026b5989e86d0d03139f692f0185b",
+    "data/spider/curated300-v1/candidate_sql.json": "1ec51dcac7b0b0aa6588202831f0ec68eec406c9d760077090b9e73405a1552f",
+    "data/spider/curated300-v1/queries.jsonl": "8f804c460e05031b18f1836da116e64936d9f2993435cd99e252c22f1f253959",
+    "data/spider/curated300-v1/splits.json": "41fdc7587f340752dd27e9700357ede7b1771f04184fca75f3eae0b14125ec26",
+    "data/spider/curated300-v1/id-map.json": "d5966fbf691cd1f5541b74305fdac1bd06558ce358e67dbf62ad839e461d0fa0",
+    "data/YFCC1920/runtime-20261030/queries.json": "4fdd0532800c5516c8c4d5621f4d436d331e6947c0cdb1168270beec29b0d7ef",
+    "data/YFCC1920/runtime-20261030/all_queries_240.json": "05fc304bf450a327a1f6bb15204a5e31652f431e2c4a1df3bc63374b17e88162",
+    "data/YFCC1920/runtime-20261030/splits.json": "89521636335dc9c08d03773adc3cabd85b82ac9eecbf3d42982325f3925c1f2f"
+  }
+}

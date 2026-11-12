@@ -1,0 +1,289 @@
+{
+  "protocol_version": "uniplan-yfcc-reproduction-v1",
+  "evaluation_mode": "frozen",
+  "query_features": {
+    "local_statistics": true
+  },
+  "assets": {},
+  "require_paths": [
+    "PRE",
+    "POST",
+    "FAISS",
+    "ACORN"
+  ],
+  "seed": 42,
+  "snapshot_id": "yfcc1920-l2-zero-based-v1",
+  "distance_metric": "l2",
+  "embedding": {
+    "model": "YFCC-imported-reference-image-vectors",
+    "dimension": 1920,
+    "normalized": false,
+    "source": "zero_based_corpus_row"
+  },
+  "database": {
+    "name": "yfcc1920_l2_v1",
+    "config_path": "@DATABASE@"
+  },
+  "acorn": {
+    "url": "http://127.0.0.1:19343",
+    "grpc_port": 19344,
+    "trust_env": false
+  },
+  "actions": {
+    "0": {
+      "path_id": "PRE",
+      "params": {
+        "index_mode": "no_index",
+        "join_strategy": "all"
+      }
+    },
+    "1": {
+      "path_id": "POST",
+      "params": {
+        "ef_search": 100,
+        "max_scan_tuples": 100000
+      }
+    },
+    "2": {
+      "path_id": "FAISS",
+      "params": {
+        "ef_search": 100,
+        "candidate_multiplier": 4.0
+      }
+    },
+    "3": {
+      "path_id": "ACORN",
+      "params": {
+        "hnsw_ef": 100
+      }
+    }
+  },
+  "parameter_spaces": {
+    "PRE": {
+      "index_mode": [
+        "index",
+        "no_index"
+      ],
+      "index_strategy": [
+        "btree",
+        "hash",
+        "bitmap",
+        "optimizer"
+      ],
+      "join_strategy": [
+        "all",
+        "hash",
+        "merge",
+        "nested_loop"
+      ]
+    },
+    "POST": {
+      "ef_search": {
+        "type": "integer_interval",
+        "min": 40,
+        "max": 1000
+      },
+      "max_scan_tuples": {
+        "type": "integer_interval",
+        "min": 20000,
+        "max": 3000000
+      }
+    },
+    "FAISS": {
+      "ef_search": {
+        "type": "integer_interval",
+        "min": 40,
+        "max": 32000
+      },
+      "candidate_multiplier": {
+        "type": "real_interval",
+        "min": 1.0,
+        "max": 10000.0
+      }
+    },
+    "ACORN": {
+      "hnsw_ef": {
+        "type": "integer_interval",
+        "min": 40,
+        "max": 32000
+      }
+    }
+  },
+  "backend_fixed_settings": {
+    "POST": {
+      "iterative_scan": "strict_order",
+      "scan_mem_multiplier": 2.0,
+      "enable_seqscan": false
+    },
+    "ACORN": {
+      "enable": true,
+      "max_selectivity": 1.0,
+      "exact": false
+    }
+  },
+  "measurement": {
+    "hard_e2e_deadline": true,
+    "warmup_runs": 1,
+    "latency_runs": 5,
+    "recall_runs": 1,
+    "statement_timeout_ms": 600000,
+    "shared_translation_time": true,
+    "shared_embedding_time": false,
+    "latency_definition": "request_start_to_joined_row_ids_ready",
+    "include_embedding": true,
+    "include_policy_inference": true
+  },
+  "quality": {
+    "protocol": "small-k-v1",
+    "allowed_k": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "required_hits": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 8
+    }
+  },
+  "reward": {
+    "recall_threshold": 0.8,
+    "latency_cap_ms": 5000,
+    "deadline_inclusive": true
+  },
+  "runtime": {
+    "cpu_threads": 4,
+    "inference_threads": 1,
+    "pre_access_enabled": false,
+    "unified_resources": true,
+    "detailed_timing": false,
+    "baseline_shared_pool": true,
+    "lightweight_execution": true,
+    "main_fast_inference": true,
+    "main_training_gpus": []
+  },
+  "initial_design": {
+    "method": "latin_hypercube",
+    "points_per_numeric_path": 8,
+    "seed": 42
+  },
+  "catboost": {
+    "ensemble_size": 8,
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "uncertainty_floor": 1e-06,
+    "seed": 42,
+    "task_type": "CPU"
+  },
+  "max_ucb": {
+    "beta_quality": 1.0,
+    "beta_latency": 1.0,
+    "kappa_quality": 1.0,
+    "kappa_latency": 1.0,
+    "quality_probability_min": 0.8,
+    "gamma": 1.0,
+    "candidates_per_numeric_path": 128,
+    "seed": 42,
+    "fallback_quality_tolerance": 0.01
+  },
+  "online_learning": {
+    "refit_every": 8
+  },
+  "jev": {
+    "enabled": false,
+    "base_url": "https://api.typesafe.ai",
+    "model": "jev-1.13.0",
+    "allow_unpinned_model": false,
+    "prompt_version": "jev-path-routing-v3-compact",
+    "timeout_seconds": 3.0,
+    "max_retries": 0,
+    "path_prior_weight": 0.25,
+    "failure_policy": "fail_closed",
+    "replay_path": null,
+    "record_path": null,
+    "charge_replay_latency": true
+  },
+  "optional_acceleration": {
+    "enabled": false
+  },
+  "acceleration_calibration": {
+    "repeats": 3,
+    "min_relative_gain": 0.05,
+    "min_train_groups": 2,
+    "min_dev_groups": 1,
+    "candidate_paths": [
+      "PG_NATIVE_SQL",
+      "PRE",
+      "FAISS"
+    ]
+  },
+  "budget_faiss": {
+    "enabled": false
+  },
+  "training_latency_cap_ms": 5000,
+  "comparison_scope": "main-only ordered FAISS/PG routing; baseline algorithms unchanged",
+  "main_training": {
+    "enabled": true
+  },
+  "main_search": {
+    "enabled": true,
+    "initial_candidates": 8,
+    "quality_margin": 0.03
+  },
+  "main_execution": {
+    "adaptive_fill": true
+  },
+  "main_lightweight_selector": {
+    "enabled": false,
+    "artifact": null,
+    "collect_facts": true,
+    "deduplicate_pre_joins": true,
+    "native_pg_early": false,
+    "native_pg_fallback": false
+  },
+  "main_selector_calibration": {
+    "enabled": true,
+    "strategy": "faiss_then_pg",
+    "artifact": "@OUTPUT@/main-selector.json"
+  },
+  "pg_execution_contract": "relational-pg-pre-post-v1",
+  "main_search_budget": {
+    "enabled": true,
+    "max_extra_cost_fraction": 0.25
+  },
+  "main_competitive_early": {
+    "enabled": true,
+    "allow_empirical_fallback": true,
+    "artifact": "@OUTPUT@/competitive-early.json",
+    "sha256": null,
+    "strategy": "anchor_competition",
+    "allow_underfilled_estimate": true
+  },
+  "faiss_assets": {},
+  "yfcc": {
+    "faiss_dir": "@ASSETS@/yfcc/faiss",
+    "collection": "yfcc_10m_1920d_l2_acorn_v1",
+    "id_base": 0,
+    "metric": "l2",
+    "faiss_load_mode": "mmap_all",
+    "shard_workers": 4,
+    "postgres_ann_available": false,
+    "execution_diagnostics": true,
+    "acorn_max_selectivity": 0.4
+  }
+}

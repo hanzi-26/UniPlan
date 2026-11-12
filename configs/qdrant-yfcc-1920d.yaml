@@ -1,0 +1,21 @@
+log_level: INFO
+telemetry_disabled: true
+storage:
+  storage_path: assets/yfcc/qdrant/storage
+  snapshots_path: assets/yfcc/qdrant/snapshots
+  temp_path: assets/yfcc/qdrant/tmp
+  on_disk_payload: true
+  performance:
+    max_search_threads: 4
+    optimizer_cpu_budget: 16
+  optimizers:
+    max_optimization_threads: 1
+  hnsw_index:
+    max_indexing_threads: 16
+service:
+  host: 127.0.0.1
+  http_port: 19343
+  grpc_port: 19344
+  max_workers: 8
+cluster:
+  enabled: false

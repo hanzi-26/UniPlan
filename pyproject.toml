@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vec2plan-bandit"
+version = "0.2.0"
+description = "CASH + MaxUCB routing with CatBoost uncertainty for filtered vector search"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "PyYAML>=6.0",
+  "requests>=2.31",
+  "sqlglot>=30.21,<31",
+]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.1"]
+faiss = ["faiss-cpu>=1.8"]
+acorn = ["qdrant-client>=1.16,<1.17"]
+model = ["catboost>=1.2"]
+baselines = ["catboost>=1.2", "scikit-learn>=1.4", "lightgbm>=4.0", "scipy>=1.11"]
+jev = ["typesafe-sdk>=0.7.1,<0.8"]
+plots = ["matplotlib>=3.8"]
+wiki = ["sqlglot>=30.21,<31"]
+bird = ["psycopg[binary]>=3.1", "faiss-cpu>=1.8", "qdrant-client>=1.16,<1.17", "sqlglot>=30.21,<31", "catboost>=1.2", "scikit-learn>=1.4", "lightgbm>=4.0", "scipy>=1.11"]
+all = [
+  "psycopg[binary]>=3.1",
+  "faiss-cpu>=1.8",
+  "qdrant-client>=1.16,<1.17",
+  "catboost>=1.2",
+  "scikit-learn>=1.4",
+  "lightgbm>=4.0",
+  "scipy>=1.11",
+  "typesafe-sdk>=0.7.1,<0.8",
+]
+
+[project.scripts]
+vec2plan = "vec2plan_bandit.cli:main"
+
+[project.entry-points."vec2plan_bandit.baselines"]
+fixed = "vec2plan_bandit.baselines.fixed:fixed_factory"
+pure-pre = "vec2plan_bandit.baselines.pure_paths:pure_pre_factory"
+pure-post = "vec2plan_bandit.baselines.pure_paths:pure_post_factory"
+pure-faiss = "vec2plan_bandit.baselines.pure_paths:pure_faiss_factory"
+maxucb-bo = "vec2plan_bandit.baselines.maxucb_bo:maxucb_bo_factory"
+jev-router = "vec2plan_bandit.baselines.maxucb_bo:jev_router_factory"
+mlp = "vec2plan_bandit.baselines.predictive:mlp_factory"
+lightgbm = "vec2plan_bandit.baselines.predictive:lightgbm_factory"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"vec2plan_bandit.surrogates" = ["frozen_forest.cpp"]

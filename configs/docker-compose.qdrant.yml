@@ -1,0 +1,23 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.16.0@sha256:1005201498cf927d835383d0f918b17d8c9da7db58550f169f694455e42d78f4
+    container_name: text2plan-qdrant
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:6333:6333"
+      - "127.0.0.1:6334:6334"
+    # 段合并重建 HNSW 图需要大量页缓存：5g/7g 都会触发 cgroup 内存颠簸
+    # （实测 memory.events max 超限 26.8 万次、优化线程 100% 内核态）。
+    # 与 Docker Desktop VM 内存（MemoryMiB=20480）配套使用。
+    # arXiv 0.85 复测期间确认 16g OOM 重启；18g 内存 + 4g swap。
+    mem_limit: 18g
+    memswap_limit: 22g
+    cpus: 8
+    environment:
+      QDRANT__TELEMETRY_DISABLED: "true"
+      QDRANT__STORAGE__OPTIMIZERS__MAX_OPTIMIZATION_THREADS: "3"
+    volumes:
+      - qdrant-data:/qdrant/storage
+volumes:
+  qdrant-data:
+    name: text2plan_qdrant_v1

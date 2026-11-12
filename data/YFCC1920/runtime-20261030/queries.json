@@ -1,0 +1,5282 @@
+[
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_049",
+    "reference_vector_name": 8825613,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.5088622570037842,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.5108871459960938,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 8825613, with range >= 1.5088622570037842 and range < 1.5108871459960938."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_022",
+    "reference_vector_name": 5524035,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 4.153815746307373,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 8.272560119628906,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 5524035, with range >= 4.153815746307373 and range < 8.272560119628906."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_035",
+    "reference_vector_name": 3716670,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9646515250205994,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9647527933120728,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 3716670, with range >= 0.9646515250205994 and range < 0.9647527933120728."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_045",
+    "reference_vector_name": 8813587,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4681473970413208,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.4701337814331055,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 8813587, with range >= 1.4681473970413208 and range < 1.4701337814331055."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_033",
+    "reference_vector_name": 5482882,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4803004264831543,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.4815713167190552,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 5482882, with range >= 1.4803004264831543 and range < 1.4815713167190552."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_016",
+    "reference_vector_name": 8174004,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.29823771119117737,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.3900948166847229,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 8174004, with range >= 0.29823771119117737 and range < 0.3900948166847229."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_031",
+    "reference_vector_name": 4361840,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.3620247840881348,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.7607667446136475,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 4361840, with range >= 2.3620247840881348 and range < 2.7607667446136475."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_058",
+    "reference_vector_name": 9075362,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7779110074043274,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7788832187652588,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 9075362, with range >= 0.7779110074043274 and range < 0.7788832187652588."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_080",
+    "reference_vector_name": 2785025,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7542393207550049,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8362019658088684,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 2785025, with range >= 0.7542393207550049 and range < 0.8362019658088684."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_032",
+    "reference_vector_name": 9744835,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 3.1224358081817627,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.4572291374206543,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 9744835, with range >= 3.1224358081817627 and range < 3.4572291374206543."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_064",
+    "reference_vector_name": 4869959,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.7910754680633545,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.7674248218536377,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 4869959, with range >= 2.7910754680633545 and range < 3.7674248218536377."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_054",
+    "reference_vector_name": 8866832,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.8951098918914795,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.308534860610962,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 8866832, with range >= 1.8951098918914795 and range < 2.308534860610962."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_008",
+    "reference_vector_name": 6633021,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7596057057380676,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8420288562774658,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 6633021, with range >= 0.7596057057380676 and range < 0.8420288562774658."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_002",
+    "reference_vector_name": 7235402,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.2503413259983063,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.2508559226989746,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 7235402, with range >= 0.2503413259983063 and range < 0.2508559226989746."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_043",
+    "reference_vector_name": 7592491,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.24069605767726898,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.2412395179271698,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 7592491, with range >= 0.24069605767726898 and range < 0.2412395179271698."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_037",
+    "reference_vector_name": 9208055,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9210656881332397,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9222410321235657,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 9208055, with range >= 0.9210656881332397 and range < 0.9222410321235657."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_076",
+    "reference_vector_name": 677183,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5563439726829529,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5566136240959167,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 677183, with range >= 0.5563439726829529 and range < 0.5566136240959167."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_055",
+    "reference_vector_name": 9078883,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.87545108795166,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.1517527103424072,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 9078883, with range >= 2.87545108795166 and range < 3.1517527103424072."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_053",
+    "reference_vector_name": 6437322,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.711965560913086,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.7137885093688965,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 6437322, with range >= 2.711965560913086 and range < 2.7137885093688965."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_041",
+    "reference_vector_name": 2981209,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.4060130715370178,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.40608009696006775,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 2981209, with range >= 0.4060130715370178 and range < 0.40608009696006775."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_069",
+    "reference_vector_name": 7224687,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.3527599275112152,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.35282447934150696,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 7224687, with range >= 0.3527599275112152 and range < 0.35282447934150696."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_026",
+    "reference_vector_name": 8569577,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.002443790435791,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.005608320236206,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 8569577, with range >= 2.002443790435791 and range < 2.005608320236206."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_078",
+    "reference_vector_name": 8003357,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.37877994775772095,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6366688013076782,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 8003357, with range >= 0.37877994775772095 and range < 0.6366688013076782."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_070",
+    "reference_vector_name": 1925711,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9467129707336426,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9953439831733704,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 1925711, with range >= 0.9467129707336426 and range < 0.9953439831733704."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_009",
+    "reference_vector_name": 2800324,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7698693871498108,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7705090045928955,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 2800324, with range >= 0.7698693871498108 and range < 0.7705090045928955."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_065",
+    "reference_vector_name": 355991,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5210244655609131,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5210874676704407,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 355991, with range >= 0.5210244655609131 and range < 0.5210874676704407."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_075",
+    "reference_vector_name": 3683143,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.5486419200897217,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.5488617420196533,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 3683143, with range >= 2.5486419200897217 and range < 2.5488617420196533."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_071",
+    "reference_vector_name": 2932188,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7667617201805115,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8074774146080017,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 2932188, with range >= 0.7667617201805115 and range < 0.8074774146080017."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_021",
+    "reference_vector_name": 968999,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5171526670455933,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5172780156135559,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 968999, with range >= 0.5171526670455933 and range < 0.5172780156135559."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_059",
+    "reference_vector_name": 8885485,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5891373157501221,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5894080400466919,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 8885485, with range >= 0.5891373157501221 and range < 0.5894080400466919."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_039",
+    "reference_vector_name": 1502713,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7673123478889465,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9888938069343567,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 1502713, with range >= 0.7673123478889465 and range < 0.9888938069343567."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_066",
+    "reference_vector_name": 4842230,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.0587791204452515,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.0596404075622559,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 4842230, with range >= 1.0587791204452515 and range < 1.0596404075622559."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_067",
+    "reference_vector_name": 1289424,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.7809666395187378,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.781794786453247,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 1289424, with range >= 1.7809666395187378 and range < 1.781794786453247."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_014",
+    "reference_vector_name": 6561033,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 3.081308126449585,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 4.3697333335876465,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 6561033, with range >= 3.081308126449585 and range < 4.3697333335876465."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_047",
+    "reference_vector_name": 5623125,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4998071193695068,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.7775198221206665,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 5623125, with range >= 1.4998071193695068 and range < 1.7775198221206665."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_030",
+    "reference_vector_name": 3257896,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.8037089109420776,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.2762961387634277,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 3257896, with range >= 1.8037089109420776 and range < 3.2762961387634277."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_036",
+    "reference_vector_name": 3879830,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9398325681686401,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9398806095123291,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 3879830, with range >= 0.9398325681686401 and range < 0.9398806095123291."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_020",
+    "reference_vector_name": 7941212,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.250074863433838,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.2501381635665894,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 7941212, with range >= 1.250074863433838 and range < 1.2501381635665894."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_015",
+    "reference_vector_name": 5591236,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5930110812187195,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9058982729911804,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 5591236, with range >= 0.5930110812187195 and range < 0.9058982729911804."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_056",
+    "reference_vector_name": 594184,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9980103373527527,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.2856676578521729,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 594184, with range >= 0.9980103373527527 and range < 1.2856676578521729."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_006",
+    "reference_vector_name": 919105,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.854512631893158,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9451044797897339,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 919105, with range >= 0.854512631893158 and range < 0.9451044797897339."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_005",
+    "reference_vector_name": 4718007,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.484813690185547,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.4878344535827637,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 4718007, with range >= 2.484813690185547 and range < 2.4878344535827637."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_004",
+    "reference_vector_name": 6092458,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.288864016532898,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.290539026260376,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 6092458, with range >= 1.288864016532898 and range < 1.290539026260376."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_042",
+    "reference_vector_name": 4096947,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.183693766593933,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.183938980102539,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 4096947, with range >= 1.183693766593933 and range < 1.183938980102539."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_012",
+    "reference_vector_name": 4398944,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.8461145758628845,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8462919592857361,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 4398944, with range >= 0.8461145758628845 and range < 0.8462919592857361."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_038",
+    "reference_vector_name": 8874382,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1605457067489624,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.5071899890899658,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 8874382, with range >= 1.1605457067489624 and range < 1.5071899890899658."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_017",
+    "reference_vector_name": 8757715,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 5.047373294830322,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 5.051190376281738,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 8757715, with range >= 5.047373294830322 and range < 5.051190376281738."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_028",
+    "reference_vector_name": 5051239,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.509438395500183,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.5114805698394775,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 5051239, with range >= 1.509438395500183 and range < 1.5114805698394775."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_013",
+    "reference_vector_name": 9429500,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.405701756477356,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.4057726860046387,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 9429500, with range >= 1.405701756477356 and range < 1.4057726860046387."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_003",
+    "reference_vector_name": 8816276,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.6131376028060913,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6132708191871643,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 8816276, with range >= 0.6131376028060913 and range < 0.6132708191871643."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_074",
+    "reference_vector_name": 8669899,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.12817461788654327,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.12859876453876495,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 8669899, with range >= 0.12817461788654327 and range < 0.12859876453876495."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_027",
+    "reference_vector_name": 741734,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.42483091354370117,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.42495959997177124,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 741734, with range >= 0.42483091354370117 and range < 0.42495959997177124."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_068",
+    "reference_vector_name": 444834,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.6707046627998352,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6708523035049438,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 444834, with range >= 0.6707046627998352 and range < 0.6708523035049438."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_077",
+    "reference_vector_name": 4438014,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9735816717147827,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9747920632362366,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 4438014, with range >= 0.9735816717147827 and range < 0.9747920632362366."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_011",
+    "reference_vector_name": 2542303,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.4464830160140991,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.44660887122154236,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 2542303, with range >= 0.4464830160140991 and range < 0.44660887122154236."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_061",
+    "reference_vector_name": 9619993,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.4092417061328888,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.40927162766456604,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 9619993, with range >= 0.4092417061328888 and range < 0.40927162766456604."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_063",
+    "reference_vector_name": 9317311,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.46627599000930786,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5300735831260681,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 9317311, with range >= 0.46627599000930786 and range < 0.5300735831260681."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_029",
+    "reference_vector_name": 9326078,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4979199171066284,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.498234510421753,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 9326078, with range >= 1.4979199171066284 and range < 1.498234510421753."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_052",
+    "reference_vector_name": 9473505,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.4274067282676697,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.4275277256965637,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 9473505, with range >= 0.4274067282676697 and range < 0.4275277256965637."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_044",
+    "reference_vector_name": 9742233,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.5415841341018677,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.5417636632919312,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 9742233, with range >= 1.5415841341018677 and range < 1.5417636632919312."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_057",
+    "reference_vector_name": 2377087,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1286250352859497,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1295222043991089,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 2377087, with range >= 1.1286250352859497 and range < 1.1295222043991089."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_062",
+    "reference_vector_name": 9670102,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.554147481918335,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7317497134208679,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 9670102, with range >= 0.554147481918335 and range < 0.7317497134208679."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_001",
+    "reference_vector_name": 7724031,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.4542936384677887,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.45505833625793457,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 7724031, with range >= 0.4542936384677887 and range < 0.45505833625793457."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_024",
+    "reference_vector_name": 760629,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.1519272327423096,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.684049367904663,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 760629, with range >= 2.1519272327423096 and range < 2.684049367904663."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_073",
+    "reference_vector_name": 6263829,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.2357228398323059,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.2358647882938385,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 6263829, with range >= 0.2357228398323059 and range < 0.2358647882938385."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_079",
+    "reference_vector_name": 9044549,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.6369683742523193,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7485367059707642,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 9044549, with range >= 0.6369683742523193 and range < 0.7485367059707642."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_040",
+    "reference_vector_name": 9403315,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.16520939767360687,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.20395295321941376,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 9403315, with range >= 0.16520939767360687 and range < 0.20395295321941376."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_060",
+    "reference_vector_name": 5254426,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 4.752717018127441,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 4.772611141204834,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 5254426, with range >= 4.752717018127441 and range < 4.772611141204834."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_025",
+    "reference_vector_name": 3289490,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 10.423517227172852,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 10.489619255065918,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 3289490, with range >= 10.423517227172852 and range < 10.489619255065918."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_072",
+    "reference_vector_name": 9139403,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1634904146194458,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.5112751722335815,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 9139403, with range >= 1.1634904146194458 and range < 1.5112751722335815."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_018",
+    "reference_vector_name": 4953815,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.2345911264419556,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.2355793714523315,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 4953815, with range >= 1.2345911264419556 and range < 1.2355793714523315."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_048",
+    "reference_vector_name": 3053042,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 3.0973122119903564,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.4262478351593018,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 3053042, with range >= 3.0973122119903564 and range < 3.4262478351593018."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_050",
+    "reference_vector_name": 6165140,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.40671786665916443,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.4069739580154419,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 6165140, with range >= 0.40671786665916443 and range < 0.4069739580154419."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_023",
+    "reference_vector_name": 3329547,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.4394308924674988,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7088636755943298,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 3329547, with range >= 0.4394308924674988 and range < 0.7088636755943298."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_051",
+    "reference_vector_name": 2578401,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9260160326957703,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9267540574073792,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 2578401, with range >= 0.9260160326957703 and range < 0.9267540574073792."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_046",
+    "reference_vector_name": 6482155,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.2808189392089844,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.6783801317214966,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 6482155, with range >= 1.2808189392089844 and range < 1.6783801317214966."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_010",
+    "reference_vector_name": 4568266,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 3.109337329864502,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.1099154949188232,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 4568266, with range >= 3.109337329864502 and range < 3.1099154949188232."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_019",
+    "reference_vector_name": 6848728,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 3.7057888507843018,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.7076213359832764,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 6848728, with range >= 3.7057888507843018 and range < 3.7076213359832764."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_034",
+    "reference_vector_name": 7267186,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.28150317072868347,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.2823081612586975,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 7267186, with range >= 0.28150317072868347 and range < 0.2823081612586975."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TRAIN_007",
+    "reference_vector_name": 3047486,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.6252007484436035,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7355036735534668,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 3047486, with range >= 0.6252007484436035 and range < 0.7355036735534668."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_011",
+    "reference_vector_name": 9269997,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 3.3619675636291504,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 5.051030158996582,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 9269997, with range >= 3.3619675636291504 and range < 5.051030158996582."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_049",
+    "reference_vector_name": 125631,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.3547124862670898,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.354992389678955,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 125631, with range >= 1.3547124862670898 and range < 1.354992389678955."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_034",
+    "reference_vector_name": 2197878,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.5989998579025269,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.7941887378692627,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 2197878, with range >= 1.5989998579025269 and range < 1.7941887378692627."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_046",
+    "reference_vector_name": 9342967,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.71419757604599,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8346971273422241,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 9342967, with range >= 0.71419757604599 and range < 0.8346971273422241."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_055",
+    "reference_vector_name": 6931756,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.27383774518966675,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.27409252524375916,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 6931756, with range >= 0.27383774518966675 and range < 0.27409252524375916."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_024",
+    "reference_vector_name": 7181121,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4083799123764038,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.2712972164154053,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 7181121, with range >= 1.4083799123764038 and range < 2.2712972164154053."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_050",
+    "reference_vector_name": 2471993,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1024329662322998,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.102650761604309,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 2471993, with range >= 1.1024329662322998 and range < 1.102650761604309."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_039",
+    "reference_vector_name": 7231136,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.005612850189209,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.005661129951477,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 7231136, with range >= 1.005612850189209 and range < 1.005661129951477."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_047",
+    "reference_vector_name": 4898363,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.692888081073761,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7700472474098206,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 4898363, with range >= 0.692888081073761 and range < 0.7700472474098206."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_001",
+    "reference_vector_name": 3018359,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.8016639947891235,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8023363351821899,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 3018359, with range >= 0.8016639947891235 and range < 0.8023363351821899."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_016",
+    "reference_vector_name": 3563999,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5749803185462952,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6438373327255249,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 3563999, with range >= 0.5749803185462952 and range < 0.6438373327255249."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_006",
+    "reference_vector_name": 1619688,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.2482514381408691,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.4609997272491455,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 1619688, with range >= 1.2482514381408691 and range < 1.4609997272491455."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_031",
+    "reference_vector_name": 1455594,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.459110975265503,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.4637022018432617,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 1455594, with range >= 2.459110975265503 and range < 2.4637022018432617."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_007",
+    "reference_vector_name": 7216011,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1547421216964722,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1562060117721558,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 7216011, with range >= 1.1547421216964722 and range < 1.1562060117721558."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_032",
+    "reference_vector_name": 3837115,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7316843271255493,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7317239046096802,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 3837115, with range >= 0.7316843271255493 and range < 0.7317239046096802."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_044",
+    "reference_vector_name": 7573374,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.8382641673088074,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.838351845741272,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 7573374, with range >= 0.8382641673088074 and range < 0.838351845741272."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_004",
+    "reference_vector_name": 1182946,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.6518803238868713,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8479019999504089,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 1182946, with range >= 0.6518803238868713 and range < 0.8479019999504089."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_058",
+    "reference_vector_name": 1105689,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.2740109860897064,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5221078395843506,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 1105689, with range >= 0.2740109860897064 and range < 0.5221078395843506."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_017",
+    "reference_vector_name": 142287,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4989748001098633,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.471210241317749,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 142287, with range >= 1.4989748001098633 and range < 2.471210241317749."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_057",
+    "reference_vector_name": 7807857,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.6783176064491272,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6792145371437073,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 7807857, with range >= 0.6783176064491272 and range < 0.6792145371437073."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_014",
+    "reference_vector_name": 7580931,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4907143115997314,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.4920156002044678,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 7580931, with range >= 1.4907143115997314 and range < 1.4920156002044678."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_054",
+    "reference_vector_name": 8300155,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4538390636444092,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.535084843635559,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 8300155, with range >= 1.4538390636444092 and range < 1.535084843635559."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_056",
+    "reference_vector_name": 8127312,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.04081335663795471,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.04778417572379112,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 8127312, with range >= 0.04081335663795471 and range < 0.04778417572379112."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_051",
+    "reference_vector_name": 9464823,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 11.105799674987793,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 11.18647575378418,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 9464823, with range >= 11.105799674987793 and range < 11.18647575378418."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_038",
+    "reference_vector_name": 4555477,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.8408342599868774,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8418894410133362,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 4555477, with range >= 0.8408342599868774 and range < 0.8418894410133362."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_009",
+    "reference_vector_name": 4894075,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.519979476928711,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.5220717191696167,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 4894075, with range >= 1.519979476928711 and range < 1.5220717191696167."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_043",
+    "reference_vector_name": 1871363,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9099957346916199,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9100390672683716,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 1871363, with range >= 0.9099957346916199 and range < 0.9100390672683716."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_021",
+    "reference_vector_name": 5947913,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 3.207463502883911,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.2081458568573,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 5947913, with range >= 3.207463502883911 and range < 3.2081458568573."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_010",
+    "reference_vector_name": 6616291,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1317750215530396,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.3199518918991089,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 6616291, with range >= 1.1317750215530396 and range < 1.3199518918991089."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_052",
+    "reference_vector_name": 2743633,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.8050997257232666,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.0663344860076904,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 2743633, with range >= 2.8050997257232666 and range < 3.0663344860076904."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_008",
+    "reference_vector_name": 760746,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.0160205364227295,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.0193023681640625,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 760746, with range >= 2.0160205364227295 and range < 2.0193023681640625."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_041",
+    "reference_vector_name": 5385699,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.2610146403312683,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.508964478969574,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 5385699, with range >= 0.2610146403312683 and range < 0.508964478969574."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_042",
+    "reference_vector_name": 5306763,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5873174667358398,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6569542288780212,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 5306763, with range >= 0.5873174667358398 and range < 0.6569542288780212."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_002",
+    "reference_vector_name": 9734,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.8464680910110474,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.8473520278930664,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 9734, with range >= 1.8464680910110474 and range < 1.8473520278930664."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_036",
+    "reference_vector_name": 842140,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9345675706863403,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9825673699378967,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 842140, with range >= 0.9345675706863403 and range < 0.9825673699378967."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_023",
+    "reference_vector_name": 8541064,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.359158456325531,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.4510718882083893,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 8541064, with range >= 0.359158456325531 and range < 0.4510718882083893."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_029",
+    "reference_vector_name": 5276066,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.577842116355896,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6468654274940491,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 5276066, with range >= 0.577842116355896 and range < 0.6468654274940491."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_005",
+    "reference_vector_name": 5680732,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.654858350753784,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.514072895050049,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 5680732, with range >= 2.654858350753784 and range < 3.514072895050049."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_022",
+    "reference_vector_name": 8046984,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.59001088142395,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 10.000652313232422,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 8046984, with range >= 2.59001088142395 and range < 10.000652313232422."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_018",
+    "reference_vector_name": 40559,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.22341203689575195,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.38045355677604675,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 40559, with range >= 0.22341203689575195 and range < 0.38045355677604675."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_003",
+    "reference_vector_name": 6085580,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.0722737312316895,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.075629234313965,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 6085580, with range >= 2.0722737312316895 and range < 2.075629234313965."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_040",
+    "reference_vector_name": 4716783,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.4419042766094208,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6039882302284241,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 4716783, with range >= 0.4419042766094208 and range < 0.6039882302284241."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_028",
+    "reference_vector_name": 6452602,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.2602258920669556,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.9722057580947876,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 6452602, with range >= 1.2602258920669556 and range < 1.9722057580947876."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_030",
+    "reference_vector_name": 2361029,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.9521098136901855,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 5.788650035858154,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 2361029, with range >= 2.9521098136901855 and range < 5.788650035858154."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_033",
+    "reference_vector_name": 7633729,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.863588571548462,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.8645328283309937,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 7633729, with range >= 1.863588571548462 and range < 1.8645328283309937."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_035",
+    "reference_vector_name": 6524946,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.6881754398345947,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 19.653589248657227,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 6524946, with range >= 2.6881754398345947 and range < 19.653589248657227."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_060",
+    "reference_vector_name": 2714935,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.785060465335846,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1760225296020508,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 2714935, with range >= 0.785060465335846 and range < 1.1760225296020508."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_048",
+    "reference_vector_name": 8054985,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.3072133958339691,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.36831924319267273,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 8054985, with range >= 0.3072133958339691 and range < 0.36831924319267273."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_053",
+    "reference_vector_name": 8798689,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5424899458885193,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6445897817611694,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 8798689, with range >= 0.5424899458885193 and range < 0.6445897817611694."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_013",
+    "reference_vector_name": 9863190,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7487645149230957,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7497480511665344,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 9863190, with range >= 0.7487645149230957 and range < 0.7497480511665344."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_012",
+    "reference_vector_name": 1926907,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9375282526016235,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.2059574127197266,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 1926907, with range >= 0.9375282526016235 and range < 1.2059574127197266."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_037",
+    "reference_vector_name": 7825237,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.36303234100341797,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.3637996315956116,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 7825237, with range >= 0.36303234100341797 and range < 0.3637996315956116."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_025",
+    "reference_vector_name": 7529111,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 4.490368366241455,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 4.491070747375488,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 7529111, with range >= 4.490368366241455 and range < 4.491070747375488."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_026",
+    "reference_vector_name": 9689195,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.287177324295044,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.2878165245056152,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 9689195, with range >= 2.287177324295044 and range < 2.2878165245056152."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_045",
+    "reference_vector_name": 312742,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.868290901184082,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8684683442115784,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 312742, with range >= 0.868290901184082 and range < 0.8684683442115784."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_020",
+    "reference_vector_name": 5723177,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.48461848497390747,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.4847487509250641,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 5723177, with range >= 0.48461848497390747 and range < 0.4847487509250641."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_015",
+    "reference_vector_name": 9472638,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.27698931097984314,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.27750033140182495,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 9472638, with range >= 0.27698931097984314 and range < 0.27750033140182495."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_019",
+    "reference_vector_name": 9705109,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.0833516120910645,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.085562229156494,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 9705109, with range >= 2.0833516120910645 and range < 2.085562229156494."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_027",
+    "reference_vector_name": 6331326,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.0272128582000732,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.0272607803344727,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 6331326, with range >= 1.0272128582000732 and range < 1.0272607803344727."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_DEV_059",
+    "reference_vector_name": 942721,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4452295303344727,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.6131511926651,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 942721, with range >= 1.4452295303344727 and range < 1.6131511926651."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_031",
+    "reference_vector_name": 6395533,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.5030744075775146,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.5060503482818604,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 6395533, with range >= 2.5030744075775146 and range < 2.5060503482818604."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_066",
+    "reference_vector_name": 8849249,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.919295072555542,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.920422375202179,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 8849249, with range >= 0.919295072555542 and range < 0.920422375202179."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_062",
+    "reference_vector_name": 2254027,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5229904651641846,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.523783802986145,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 2254027, with range >= 0.5229904651641846 and range < 0.523783802986145."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_052",
+    "reference_vector_name": 9190812,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.4246291220188141,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.4254021644592285,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 9190812, with range >= 0.4246291220188141 and range < 0.4254021644592285."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_082",
+    "reference_vector_name": 7660334,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.6103017330169678,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.6104881763458252,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 7660334, with range >= 1.6103017330169678 and range < 1.6104881763458252."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_029",
+    "reference_vector_name": 5232364,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7363828420639038,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.950617253780365,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 5232364, with range >= 0.7363828420639038 and range < 0.950617253780365."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_050",
+    "reference_vector_name": 5902763,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.0533864498138428,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1075774431228638,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 5902763, with range >= 1.0533864498138428 and range < 1.1075774431228638."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_010",
+    "reference_vector_name": 3675957,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.3833826780319214,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.4139290153980255,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 3675957, with range >= 0.3833826780319214 and range < 0.4139290153980255."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_020",
+    "reference_vector_name": 4056923,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.43044498562812805,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6979407668113708,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 4056923, with range >= 0.43044498562812805 and range < 0.6979407668113708."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_091",
+    "reference_vector_name": 7444931,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.2254972457885742,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.2257565259933472,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 7444931, with range >= 1.2254972457885742 and range < 1.2257565259933472."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_084",
+    "reference_vector_name": 7014471,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.2669715881347656,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.267030119895935,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 7014471, with range >= 1.2669715881347656 and range < 1.267030119895935."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_033",
+    "reference_vector_name": 8419168,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4003105163574219,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.4021409749984741,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 8419168, with range >= 1.4003105163574219 and range < 1.4021409749984741."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_017",
+    "reference_vector_name": 1193276,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.22661909461021423,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.2271759957075119,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 1193276, with range >= 0.22661909461021423 and range < 0.2271759957075119."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_087",
+    "reference_vector_name": 9406264,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.9542598724365234,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.9562137126922607,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 9406264, with range >= 1.9542598724365234 and range < 1.9562137126922607."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_014",
+    "reference_vector_name": 9261375,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.8145001530647278,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8151794075965881,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 9261375, with range >= 0.8145001530647278 and range < 0.8151794075965881."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_027",
+    "reference_vector_name": 8687890,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.41098904609680176,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.41105684638023376,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 8687890, with range >= 0.41098904609680176 and range < 0.41105684638023376."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_100",
+    "reference_vector_name": 9482903,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.284494012594223,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.31560203433036804,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 9482903, with range >= 0.284494012594223 and range < 0.31560203433036804."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_004",
+    "reference_vector_name": 5489965,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.19894790649414062,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.1998734325170517,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 5489965, with range >= 0.19894790649414062 and range < 0.1998734325170517."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_030",
+    "reference_vector_name": 7852171,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.0764679908752441,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1908376216888428,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 7852171, with range >= 1.0764679908752441 and range < 1.1908376216888428."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_073",
+    "reference_vector_name": 4790229,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.812454342842102,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.8141984939575195,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 4790229, with range >= 1.812454342842102 and range < 1.8141984939575195."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_077",
+    "reference_vector_name": 527295,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1308482885360718,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1322866678237915,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 527295, with range >= 1.1308482885360718 and range < 1.1322866678237915."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_092",
+    "reference_vector_name": 1879902,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.273398518562317,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.2750067710876465,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 1879902, with range >= 1.273398518562317 and range < 1.2750067710876465."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_090",
+    "reference_vector_name": 6635828,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7740830779075623,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1597877740859985,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 6635828, with range >= 0.7740830779075623 and range < 1.1597877740859985."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_043",
+    "reference_vector_name": 1987188,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7758191823959351,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7759721279144287,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 1987188, with range >= 0.7758191823959351 and range < 0.7759721279144287."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_094",
+    "reference_vector_name": 6264451,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7316664457321167,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7317069172859192,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 6264451, with range >= 0.7316664457321167 and range < 0.7317069172859192."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_055",
+    "reference_vector_name": 6872868,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.49186739325523376,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.4919033944606781,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 6872868, with range >= 0.49186739325523376 and range < 0.4919033944606781."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_008",
+    "reference_vector_name": 5976557,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.18965056538581848,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.19060130417346954,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 5976557, with range >= 0.18965056538581848 and range < 0.19060130417346954."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_058",
+    "reference_vector_name": 6137157,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1664823293685913,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1665412187576294,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 6137157, with range >= 1.1664823293685913 and range < 1.1665412187576294."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_079",
+    "reference_vector_name": 668451,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5128535628318787,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5453886389732361,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 668451, with range >= 0.5128535628318787 and range < 0.5453886389732361."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_026",
+    "reference_vector_name": 959948,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 4.251657962799072,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 4.252257823944092,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 959948, with range >= 4.251657962799072 and range < 4.252257823944092."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_057",
+    "reference_vector_name": 5972412,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.882179856300354,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.884049415588379,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 5972412, with range >= 1.882179856300354 and range < 1.884049415588379."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_097",
+    "reference_vector_name": 5046802,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.14138925075531,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1416174173355103,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 5046802, with range >= 1.14138925075531 and range < 1.1416174173355103."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_001",
+    "reference_vector_name": 508530,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1548683643341064,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1558055877685547,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 508530, with range >= 1.1548683643341064 and range < 1.1558055877685547."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_063",
+    "reference_vector_name": 9256663,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.6463771462440491,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6472540497779846,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 9256663, with range >= 0.6463771462440491 and range < 0.6472540497779846."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_065",
+    "reference_vector_name": 4214859,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7120970487594604,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7121352553367615,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 4214859, with range >= 0.7120970487594604 and range < 0.7121352553367615."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_018",
+    "reference_vector_name": 8301892,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.6126272678375244,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.614963412284851,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 8301892, with range >= 1.6126272678375244 and range < 1.614963412284851."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_093",
+    "reference_vector_name": 2804816,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.5747497081756592,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.5769635438919067,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 2804816, with range >= 1.5747497081756592 and range < 1.5769635438919067."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_081",
+    "reference_vector_name": 9599455,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.35860538482666,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.3592660427093506,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 9599455, with range >= 2.35860538482666 and range < 2.3592660427093506."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_069",
+    "reference_vector_name": 1730575,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.2839417457580566,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.3525315523147583,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 1730575, with range >= 1.2839417457580566 and range < 1.3525315523147583."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_039",
+    "reference_vector_name": 5252980,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.9819550514221191,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.4811326265335083,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 5252980, with range >= 0.9819550514221191 and range < 1.4811326265335083."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_089",
+    "reference_vector_name": 1496628,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.697292685508728,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.9029648303985596,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 1496628, with range >= 0.697292685508728 and range < 0.9029648303985596."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_037",
+    "reference_vector_name": 9877115,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.431715965270996,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.434575319290161,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 9877115, with range >= 2.431715965270996 and range < 2.434575319290161."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_021",
+    "reference_vector_name": 4474402,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 6.143235683441162,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 6.155930042266846,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 4474402, with range >= 6.143235683441162 and range < 6.155930042266846."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_061",
+    "reference_vector_name": 9749236,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.824772596359253,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.825206995010376,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 9749236, with range >= 1.824772596359253 and range < 1.825206995010376."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_074",
+    "reference_vector_name": 1439286,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.8028019666671753,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.8032370805740356,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 1439286, with range >= 1.8028019666671753 and range < 1.8032370805740356."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_025",
+    "reference_vector_name": 8045039,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5386993885040283,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5395134687423706,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 8045039, with range >= 0.5386993885040283 and range < 0.5395134687423706."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_071",
+    "reference_vector_name": 9334021,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.2508069276809692,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.2513359785079956,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 9334021, with range >= 1.2508069276809692 and range < 1.2513359785079956."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_011",
+    "reference_vector_name": 780040,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.2560533583164215,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.25608259439468384,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 780040, with range >= 0.2560533583164215 and range < 0.25608259439468384."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_075",
+    "reference_vector_name": 3770396,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.9077807664871216,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.910805106163025,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 3770396, with range >= 1.9077807664871216 and range < 1.910805106163025."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_009",
+    "reference_vector_name": 1432807,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.660295307636261,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8580321669578552,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 1432807, with range >= 0.660295307636261 and range < 0.8580321669578552."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_002",
+    "reference_vector_name": 6077686,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 3.2014997005462646,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.2095677852630615,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 6077686, with range >= 3.2014997005462646 and range < 3.2095677852630615."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_060",
+    "reference_vector_name": 550077,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.4276144802570343,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.45856738090515137,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 550077, with range >= 0.4276144802570343 and range < 0.45856738090515137."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_045",
+    "reference_vector_name": 7351233,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.067448377609253,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.070897340774536,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 7351233, with range >= 2.067448377609253 and range < 2.070897340774536."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_028",
+    "reference_vector_name": 5886439,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7763853669166565,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7767079472541809,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 5886439, with range >= 0.7763853669166565 and range < 0.7767079472541809."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_047",
+    "reference_vector_name": 296624,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5243278741836548,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.524360179901123,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 296624, with range >= 0.5243278741836548 and range < 0.524360179901123."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_096",
+    "reference_vector_name": 1898755,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.0746963024139404,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.0748448371887207,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 1898755, with range >= 2.0746963024139404 and range < 2.0748448371887207."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_013",
+    "reference_vector_name": 7468369,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7118880748748779,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7121939063072205,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 7468369, with range >= 0.7118880748748779 and range < 0.7121939063072205."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_072",
+    "reference_vector_name": 9701633,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.16955114901065826,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.17056912183761597,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 9701633, with range >= 0.16955114901065826 and range < 0.17056912183761597."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_067",
+    "reference_vector_name": 1674815,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.46610498428344727,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.4662244915962219,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 1674815, with range >= 0.46610498428344727 and range < 0.4662244915962219."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_016",
+    "reference_vector_name": 8726924,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7002072334289551,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7002446055412292,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 8726924, with range >= 0.7002072334289551 and range < 0.7002446055412292."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_024",
+    "reference_vector_name": 6232203,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.5632892847061157,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.5654293298721313,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 6232203, with range >= 1.5632892847061157 and range < 1.5654293298721313."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_085",
+    "reference_vector_name": 248440,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.0302484035491943,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.0315591096878052,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 248440, with range >= 1.0302484035491943 and range < 1.0315591096878052."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_054",
+    "reference_vector_name": 1129481,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.30797943472862244,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.3081033527851105,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 1129481, with range >= 0.30797943472862244 and range < 0.3081033527851105."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_006",
+    "reference_vector_name": 2359483,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.6783809661865234,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.6792569160461426,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 2359483, with range >= 2.6783809661865234 and range < 2.6792569160461426."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_007",
+    "reference_vector_name": 9234845,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7249667644500732,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7255895733833313,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 9234845, with range >= 0.7249667644500732 and range < 0.7255895733833313."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_048",
+    "reference_vector_name": 9814306,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.3017452955245972,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.301875352859497,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 9814306, with range >= 1.3017452955245972 and range < 1.301875352859497."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_059",
+    "reference_vector_name": 7045523,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.4755285084247589,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6415756940841675,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 7045523, with range >= 0.4755285084247589 and range < 0.6415756940841675."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_019",
+    "reference_vector_name": 87369,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.48577168583869934,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5177154541015625,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 87369, with range >= 0.48577168583869934 and range < 0.5177154541015625."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_056",
+    "reference_vector_name": 9640697,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1039484739303589,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1053262948989868,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 9640697, with range >= 1.1039484739303589 and range < 1.1053262948989868."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_023",
+    "reference_vector_name": 5866232,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.8521174192428589,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.8532119393348694,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 5866232, with range >= 0.8521174192428589 and range < 0.8532119393348694."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_003",
+    "reference_vector_name": 3241349,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.4704012870788574,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.472410798072815,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 3241349, with range >= 1.4704012870788574 and range < 1.472410798072815."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_064",
+    "reference_vector_name": 9075829,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.5843511819839478,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5846165418624878,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 9075829, with range >= 0.5843511819839478 and range < 0.5846165418624878."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_005",
+    "reference_vector_name": 5038908,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.6954047679901123,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.695889949798584,
+        "logic": "and"
+      }
+    ],
+    "k": 1,
+    "limit": 1,
+    "question": "Find the top 1 images most similar to reference image 5038908, with range >= 2.6954047679901123 and range < 2.695889949798584."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_022",
+    "reference_vector_name": 470747,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.12089671939611435,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.12100497633218765,
+        "logic": "and"
+      }
+    ],
+    "k": 3,
+    "limit": 3,
+    "question": "Find the top 3 images most similar to reference image 470747, with range >= 0.12089671939611435 and range < 0.12100497633218765."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_088",
+    "reference_vector_name": 9741023,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 3.193408489227295,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.201308488845825,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 9741023, with range >= 3.193408489227295 and range < 3.201308488845825."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_044",
+    "reference_vector_name": 7623127,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.16785472631454468,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.16853109002113342,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 7623127, with range >= 0.16785472631454468 and range < 0.16853109002113342."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_049",
+    "reference_vector_name": 3292337,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.162067711353302,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.20127072930335999,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 3292337, with range >= 0.162067711353302 and range < 0.20127072930335999."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_012",
+    "reference_vector_name": 6366776,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.18670721352100372,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.1876668483018875,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 6366776, with range >= 0.18670721352100372 and range < 0.1876668483018875."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_015",
+    "reference_vector_name": 1146408,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.8271123170852661,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.8273320198059082,
+        "logic": "and"
+      }
+    ],
+    "k": 2,
+    "limit": 2,
+    "question": "Find the top 2 images most similar to reference image 1146408, with range >= 1.8271123170852661 and range < 1.8273320198059082."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_053",
+    "reference_vector_name": 444620,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.2638150453567505,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.2640798091888428,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 444620, with range >= 1.2638150453567505 and range < 1.2640798091888428."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_036",
+    "reference_vector_name": 7938301,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.26279011368751526,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.2628222703933716,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 7938301, with range >= 0.26279011368751526 and range < 0.2628222703933716."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_068",
+    "reference_vector_name": 5685466,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 5.175004482269287,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 5.199636936187744,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 5685466, with range >= 5.175004482269287 and range < 5.199636936187744."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_099",
+    "reference_vector_name": 1815173,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.15388569235801697,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.32516413927078247,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 1815173, with range >= 0.15388569235801697 and range < 0.32516413927078247."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_051",
+    "reference_vector_name": 592473,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.6744487285614014,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.6750379204750061,
+        "logic": "and"
+      }
+    ],
+    "k": 6,
+    "limit": 6,
+    "question": "Find the top 6 images most similar to reference image 592473, with range >= 0.6744487285614014 and range < 0.6750379204750061."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_070",
+    "reference_vector_name": 7907949,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.2658443450927734,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.6567078828811646,
+        "logic": "and"
+      }
+    ],
+    "k": 7,
+    "limit": 7,
+    "question": "Find the top 7 images most similar to reference image 7907949, with range >= 1.2658443450927734 and range < 1.6567078828811646."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_038",
+    "reference_vector_name": 6101573,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.650237798690796,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.6525654792785645,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 6101573, with range >= 1.650237798690796 and range < 1.6525654792785645."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_034",
+    "reference_vector_name": 5056659,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.1875052452087402,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.1876201629638672,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 5056659, with range >= 1.1875052452087402 and range < 1.1876201629638672."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_046",
+    "reference_vector_name": 3686397,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7362595200538635,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7368619441986084,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 3686397, with range >= 0.7362595200538635 and range < 0.7368619441986084."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_098",
+    "reference_vector_name": 4316282,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 4.02166748046875,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 4.0226569175720215,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 4316282, with range >= 4.02166748046875 and range < 4.0226569175720215."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_032",
+    "reference_vector_name": 8095932,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 3.4587836265563965,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 3.4595770835876465,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 8095932, with range >= 3.4587836265563965 and range < 3.4595770835876465."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_040",
+    "reference_vector_name": 4209247,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.29937228560447693,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.5485655069351196,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 4209247, with range >= 0.29937228560447693 and range < 0.5485655069351196."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_086",
+    "reference_vector_name": 9750840,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.41893887519836426,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.4196819067001343,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 9750840, with range >= 0.41893887519836426 and range < 0.4196819067001343."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_076",
+    "reference_vector_name": 8899736,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.7732914686203003,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.7742981314659119,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 8899736, with range >= 0.7732914686203003 and range < 0.7742981314659119."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_042",
+    "reference_vector_name": 330692,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.23960892856121063,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.23973773419857025,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 330692, with range >= 0.23960892856121063 and range < 0.23973773419857025."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_083",
+    "reference_vector_name": 4601486,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.5463719367980957,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.5477509498596191,
+        "logic": "and"
+      }
+    ],
+    "k": 9,
+    "limit": 9,
+    "question": "Find the top 9 images most similar to reference image 4601486, with range >= 1.5463719367980957 and range < 1.5477509498596191."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_078",
+    "reference_vector_name": 4094674,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 2.0656495094299316,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 2.067814826965332,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 4094674, with range >= 2.0656495094299316 and range < 2.067814826965332."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_035",
+    "reference_vector_name": 913121,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.0252214670181274,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.026047945022583,
+        "logic": "and"
+      }
+    ],
+    "k": 4,
+    "limit": 4,
+    "question": "Find the top 4 images most similar to reference image 913121, with range >= 1.0252214670181274 and range < 1.026047945022583."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_041",
+    "reference_vector_name": 9304498,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 1.0700302124023438,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.0702526569366455,
+        "logic": "and"
+      }
+    ],
+    "k": 5,
+    "limit": 5,
+    "question": "Find the top 5 images most similar to reference image 9304498, with range >= 1.0700302124023438 and range < 1.0702526569366455."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_080",
+    "reference_vector_name": 1363533,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.8218423128128052,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 1.2307004928588867,
+        "logic": "and"
+      }
+    ],
+    "k": 8,
+    "limit": 8,
+    "question": "Find the top 8 images most similar to reference image 1363533, with range >= 0.8218423128128052 and range < 1.2307004928588867."
+  },
+  {
+    "query_id": "YFCC20_FOCUS2_TEST_095",
+    "reference_vector_name": 5388192,
+    "vector_field": "image_vec",
+    "scalar_filters": [
+      {
+        "field": "range",
+        "operator": ">=",
+        "value": 0.141028493642807,
+        "logic": "and"
+      },
+      {
+        "field": "range",
+        "operator": "<",
+        "value": 0.14179536700248718,
+        "logic": "and"
+      }
+    ],
+    "k": 10,
+    "limit": 10,
+    "question": "Find the top 10 images most similar to reference image 5388192, with range >= 0.141028493642807 and range < 0.14179536700248718."
+  }
+]
